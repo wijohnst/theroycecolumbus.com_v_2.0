@@ -14,9 +14,11 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-  - name: menu
-    label: Menu
-    folder: src/menu
-    create: true
-    fields:
-      - { name: body, label: Menu Descriptions, widget: markdown }
+  - name: 'pages'
+    label: "Pages"
+    files:
+      - label: 'Menu'
+        name: "menu"
+        file: "src/content/menu.yml"
+        fields:
+          - {label: Categories,  name: categories, widget: string}
