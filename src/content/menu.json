@@ -9,7 +9,7 @@
       ],
       "app_name": "Chicken Wings",
       "app_description": "Fried wings with choice of sauce",
-      "app_price": "$14.00"
+      "app_price": "$16.00"
     },
     {
       "app_allergies": [
@@ -25,6 +25,15 @@
       ],
       "app_name": "Mozzarella Sticks",
       "app_description": "Fried mozzarella sticks with marinara sauce. ",
+      "app_price": "$10.00"
+    },
+    {
+      "app_allergies": [
+        "Dairy",
+        "Soy"
+      ],
+      "app_name": "Fried Green Beans",
+      "app_description": "Tempura battered green beans with sesame oil and spicy dipping sauce. ",
       "app_price": "$10.00"
     }
   ]
