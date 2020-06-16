@@ -3,7 +3,6 @@ backend:
   repo: wijohnst/theroycecolumbus.com_v_2.0
 
 media_folder: static/assets
-public_folder: /assets
 
 collections:
   - name: blog
