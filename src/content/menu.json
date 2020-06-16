@@ -7,8 +7,16 @@
         "Gluten"
       ],
       "app_name": "Chicken Wings",
-      "app_description": "1/2 lb. of fried wings with choice of sauce.",
+      "app_description": "Fried wings with choice of sauce",
       "app_price": "$14.00"
+    },
+    {
+      "app_allergies": [
+        "Allums"
+      ],
+      "app_name": "Pickle Plate",
+      "app_description": "Chef's choice of house made pickles. Served with fresh bread.",
+      "app_price": "$12.00"
     }
   ]
 }
