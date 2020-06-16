@@ -14,4 +14,9 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-
+  - name: menu
+    label: Menu
+    folder: src/menu
+    create: true
+    fields:
+      - { name: body, label: Menu Descriptions, widget: markdown }
