@@ -3,7 +3,6 @@ backend:
   repo: wijohnst/theroycecolumbus.com_v_2.0
 
 media_folder: static/assets
-public_folder: /assets
 
 collections:
   - name: blog
@@ -15,3 +14,4 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+
