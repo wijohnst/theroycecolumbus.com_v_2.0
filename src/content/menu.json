@@ -1,3 +1,14 @@
 {
-  "categories": "Appetizers, Entrees, Salads, Desserts"
+  "categories": "Appetizers, Entrees, Salads, Desserts",
+  "appetizers_list": [
+    {
+      "app_allergies": [
+        "Animal Product",
+        "Gluten"
+      ],
+      "app_name": "Chicken Wings",
+      "app_description": "1/2 lb. of fried wings with choice of sauce.",
+      "app_price": "$14.00"
+    }
+  ]
 }
