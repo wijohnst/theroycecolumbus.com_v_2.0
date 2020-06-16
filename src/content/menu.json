@@ -1,4 +1,5 @@
 {
+  "categories": "Appetizers, Entrees, Salads, Desserts",
   "appetizers_list": [
     {
       "app_allergies": [
@@ -16,6 +17,14 @@
       "app_name": "Pickle Plate",
       "app_description": "Chef's choice of house made pickles. Served with fresh bread.",
       "app_price": "$12.00"
+    },
+    {
+      "app_allergies": [
+        "Dairy"
+      ],
+      "app_name": "Mozzarella Sticks",
+      "app_description": "Fried mozzarella sticks with marinara sauce. ",
+      "app_price": "$10.00"
     }
   ]
 }
