@@ -20,5 +20,18 @@ collections:
       - label: 'Menu'
         name: "menu"
         file: "src/content/menu.json"
+        widget: "object"
         fields:
-          - {label: Categories,  name: categories, widget: string}
+          - label: Appetizers
+            name : appetizers_list
+            widget: list
+            fields:
+              - { label: Item Name, name: app_name, widget: string }
+              - { label: Description, name: app_description, widget: text}
+              - { label: Price, name: app_price, widget: string}
+              - label: Allergies 
+                name: app_allergies
+                widget: select
+                multiple: true
+                options: [None, Dairy, Red Meat, Allums, Soy, Gluten, Animal Product, Fish]
+                default: [None]
