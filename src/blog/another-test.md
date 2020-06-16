@@ -1,5 +1,5 @@
 ---
-slu: /blog/another_test
+slug: /blog/another_test
 date: 2020-06-16T13:02:00.613Z
 title: Another Test
 ---
