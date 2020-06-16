@@ -3,7 +3,7 @@ import JSONData from "../../src/content/menu.json"
 
 const menu = () => (
   <div style={{ maxWidth: `960px`, margin: `1.45rem` }}>
-    <h1>{JSONData.title}</h1>
+    <h1>MENU</h1>
     <h2>Appetizers</h2>
     <ul>
       {JSONData.appetizers_list.map((data, index) => {
