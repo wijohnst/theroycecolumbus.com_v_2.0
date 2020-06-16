@@ -19,6 +19,6 @@ collections:
     files:
       - label: 'Menu'
         name: "menu"
-        file: "src/content/menu.yml"
+        file: "src/content/menu.json"
         fields:
           - {label: Categories,  name: categories, widget: string}
