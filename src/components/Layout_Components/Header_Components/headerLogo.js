@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import { Link } from 'gatsby'
 import { getFont } from '../../../Utils/getFont'
+import { getScreen } from '../../../Utils/getScreen'
 
 const HeaderLogoWrapper = styled.div`
   height: 100%;
@@ -14,6 +15,11 @@ const HeaderLogoWrapper = styled.div`
 
   font-family: ${getFont('logo')};
   font-size: 2rem;
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+    font-size: 2rem;
+  }
 `
 
 export default function HeaderLogo() {

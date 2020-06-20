@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Link } from 'gatsby'
+import { getScreen } from '../../../Utils/getScreen'
 
 import NavOption from '../Header_Components/navOption'
 
@@ -12,6 +12,10 @@ const HeaderNavWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  @media (max-width: ${getScreen('tablet')}){
+    display: none;
+  }
 `
 
 const NavOptionsGroup = styled.div`
