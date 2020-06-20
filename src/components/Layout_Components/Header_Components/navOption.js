@@ -38,6 +38,7 @@ export default function NavOption({linkInfo, button}) {
         href={linkInfo.to} 
         target="_blank"
         rel="noopener noreferrer"
+        style={{color: 'black'}}
         >
           <NavButton>
             {linkInfo.text}
