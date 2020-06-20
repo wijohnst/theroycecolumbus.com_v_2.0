@@ -27,8 +27,6 @@ const PhoneWrapper = styled.p`
   text-align: center;
 `
 
-
-
 export default function Preheader() {
   return (
     <PreHeaderWrapper>
