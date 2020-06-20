@@ -12,8 +12,16 @@ body{
   padding: 0;
 }
 
+a:link{
+  color: black;
+}
+
 a:visited{
   color: black;
+}
+
+a:hover{
+  color: #FFB77E;
 }
 
 .nav_link{
