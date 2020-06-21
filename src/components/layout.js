@@ -18,16 +18,20 @@ import "./layout.css"
 import Footer from './Layout_Components/footer'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee} from '@fortawesome/free-solid-svg-icons'
+import { fab} from '@fortawesome/free-brands-svg-icons'
 
-library.add(fab, faCheckSquare, faCoffee, faTwitter)
+library.add(fab)
 
 const FooterWrapper = styled.div`
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+`
+
+const ViewWrapper = styled.div`
+  height: 100vh;
+  width: 100vw;
 `
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -45,7 +49,9 @@ const Layout = ({ children }) => {
       <ScrollContextProvider>
           <PreHeader />
           <Header />
-          {children}
+          <ViewWrapper>
+            {children}
+          </ViewWrapper>
           <FooterWrapper>
             <Footer />
           </FooterWrapper>

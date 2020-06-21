@@ -1,15 +1,17 @@
 import React from "react"
+import styled from 'styled-components'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 import JSONData from "../../src/content/menu.json"
 
+const MenuWrapper = styled.div``
 
 const menu = () => (
   <Layout>
     <SEO title="Menu" />
-    <div style={{ maxWidth: `960px`, margin: `1.45rem` }}>
+    <MenuWrapper className="view_content">
       <h1>MENU</h1>
       <h2>Appetizers</h2>
       <ul>
@@ -22,7 +24,7 @@ const menu = () => (
           </li>
         })}
       </ul>
-    </div>
+    </MenuWrapper>
   </Layout>
 )
 export default menu
