@@ -42,9 +42,9 @@ module.exports = {
         fonts: [
           `Cinzel Decorative`,
           `Nanum Myeongjo`,
-          `Nanum Gothic`
-        ]
-
+          `Nanum Gothic\:400,700,800`
+        ],
+        display: 'swap'
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
