@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useContext, useRef, useEffect } from 'react'
 import styled from 'styled-components'
+
+import ScrollContext from '../../Context/ScrollContext'
 
 import { getColor } from '../../Utils/getColor'
 import { getFont } from '../../Utils/getFont'
@@ -28,15 +30,25 @@ const PhoneWrapper = styled.p`
 `
 
 export default function Preheader() {
+
+  const preHeaderRef = useRef(null);
+  const context = useContext(ScrollContext);
+
+  let { updateFunction } = context;
+
+  useEffect(() => {
+    let boundary = preHeaderRef.current.getBoundingClientRect();
+    updateFunction(boundary.bottom);
+  })
+
   return (
-    <PreHeaderWrapper>
+    <PreHeaderWrapper ref={preHeaderRef}>
       <AddressWrapper>
         8791 Lyra Drive, Columbus, Ohio, 43240
       </AddressWrapper>
       <PhoneWrapper>
         {`(614)-291-9915`}
       </PhoneWrapper>
-       
     </PreHeaderWrapper>
   )
 }
