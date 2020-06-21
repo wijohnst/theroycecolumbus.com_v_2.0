@@ -20,7 +20,6 @@ const HeaderWrapper = styled(motion.div)`
   left: 0;
   top: ${props => props.past ? '0%' : '5%'};
   z-index: 999;
-
   transition: all .5s ease-in-out;
   
 
@@ -43,7 +42,7 @@ export default function Header() {
   useEffect(() => {
 
     function testPosition(){
-      if(scrollY.current > data){
+      if(scrollY.current >= data - 20){
         console.log('True')
         setIsPast(true);
       }else{
