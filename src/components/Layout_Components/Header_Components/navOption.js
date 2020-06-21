@@ -10,7 +10,7 @@ const NavOptionWrapper = styled.div`
 
   &:hover{
     transform: scale(1.1);
-    transition: transform .5s;
+    transition: all .5s;
   }
 `
 const NavButtonWrapper = styled.div`
