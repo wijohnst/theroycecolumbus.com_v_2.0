@@ -10,6 +10,8 @@ import styled from 'styled-components'
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 
+import ScrollContextProvider from '../Context/ScrollContextProvider'
+
 import PreHeader from './Layout_Components/preheader'
 import Header from "./Layout_Components/header"
 import "./layout.css"
@@ -39,13 +41,15 @@ const Layout = ({ children }) => {
   // `)
 
   return (
-    <>
-      <PreHeader />
-      <Header />
-      {children}
-      <FooterWrapper>
-        <Footer />
-      </FooterWrapper>
+    <>  
+      <ScrollContextProvider>
+          <PreHeader />
+          <Header />
+          {children}
+          <FooterWrapper>
+            <Footer />
+          </FooterWrapper>
+        </ScrollContextProvider>
     </>
   )
 }

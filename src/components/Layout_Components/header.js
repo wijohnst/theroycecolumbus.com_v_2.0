@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import styled from 'styled-components'
+import { useViewportScroll } from 'framer-motion'
 
+import ScrollContext from '../../Context/ScrollContext'
 import { getColor } from '../../Utils/getColor'
 import { getScreen } from '../../Utils/getScreen'
 
@@ -14,14 +16,51 @@ const HeaderWrapper = styled.div`
   display: flex;
   align-items: center;
 
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: ${props => props.past ? 0 : ''};
+  z-index: 999;
+
+
   @media (max-width: ${getScreen('mobile')}){
     flex-direction: column;
   }
 `
 
 export default function Header() {
+
+  const context = useContext(ScrollContext);
+
+  const { data } = context;
+
+  const [ preHeaderBottom] = useState(() => data);
+  const [ isPast , setIsPast ] = useState(false);
+
+  const { scrollY } = useViewportScroll();
+
+  useEffect(() => {
+
+    function testPosition(){
+      if(scrollY.current > preHeaderBottom){
+        console.log('True')
+        setIsPast(true);
+      }else{
+        console.log('False')
+        setIsPast(false);
+      }
+    }
+
+    const unsubscribeScrollY = scrollY.onChange(testPosition);
+
+    return () =>{
+      unsubscribeScrollY();
+    }
+  })
+    
+
   return (
-    <HeaderWrapper>
+    <HeaderWrapper past={isPast}>
       <HeaderLogo />
       <HeaderNav />
     </HeaderWrapper>
