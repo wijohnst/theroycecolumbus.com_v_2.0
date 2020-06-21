@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react'
 import styled from 'styled-components'
-import { useViewportScroll } from 'framer-motion'
+import { motion, useViewportScroll } from 'framer-motion'
 
 import ScrollContext from '../../Context/ScrollContext'
 import { getColor } from '../../Utils/getColor'
@@ -21,7 +21,6 @@ const HeaderWrapper = styled.div`
   left: 0;
   top: ${props => props.past ? 0 : ''};
   z-index: 999;
-
 
   @media (max-width: ${getScreen('mobile')}){
     flex-direction: column;
@@ -60,7 +59,7 @@ export default function Header() {
     
 
   return (
-    <HeaderWrapper past={isPast}>
+    <HeaderWrapper past={isPast} >
       <HeaderLogo />
       <HeaderNav />
     </HeaderWrapper>
