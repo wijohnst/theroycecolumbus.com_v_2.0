@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react'
 import styled from 'styled-components'
-import { motion, useViewportScroll, useCycle } from 'framer-motion'
+import { motion, useViewportScroll } from 'framer-motion'
 
 import ScrollContext from '../../Context/ScrollContext'
 import { getColor } from '../../Utils/getColor'
