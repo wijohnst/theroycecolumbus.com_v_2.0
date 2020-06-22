@@ -33,7 +33,7 @@ collections:
                 name: app_allergies
                 widget: select
                 multiple: true
-                options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish]
+                options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish, Soy]
                 default: [None]
           - label: Salads
             name : salads_list
@@ -46,7 +46,7 @@ collections:
                 name: salad_allergies
                 widget: select
                 multiple: true
-                options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish]
+                options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish, Soy]
                 default: [None]
           - label: Sides
             name : sides_list
@@ -59,5 +59,44 @@ collections:
                 name: side_allergies
                 widget: select
                 multiple: true
-                options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish]
+                options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish, Soy]
                 default: [None]
+          - label: Sandwiches
+          name : sandwiches_list
+          widget: list
+          fields:
+            - { label: Item Name, name: sandwich_name, widget: string }
+            - { label: Description, name: sandwich_description, widget: text}
+            - { label: Price, name: sandwich_price, widget: string}
+            - label: Allergies 
+              name: sandwich_allergies
+              widget: select
+              multiple: true
+              options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish, Soy]
+              default: [None]
+          - label: Mains
+          name : mains_list
+          widget: list
+          fields:
+            - { label: Item Name, name: main_name, widget: string }
+            - { label: Description, name: main_description, widget: text}
+            - { label: Price, name: main_price, widget: string}
+            - label: Allergies 
+              name: main_allergies
+              widget: select
+              multiple: true
+              options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish, Soy]
+              default: [None]
+                        - label: Sandwiches
+          name : sweets_list
+          widget: list
+          fields:
+            - { label: Item Name, name: sweet_name, widget: string }
+            - { label: Description, name: sweet_description, widget: text}
+            - { label: Price, name: sweet_price, widget: string}
+            - label: Allergies 
+              name: sweet_allergies
+              widget: select
+              multiple: true
+              options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish, Soy]
+              default: [None]
