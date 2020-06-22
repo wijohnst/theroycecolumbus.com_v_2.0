@@ -66,6 +66,12 @@ const SaladGroup = styled.div`
 const SidesGroup = styled.div`
   width: 75%;
   position: relative;
+  background-color: ${getColor('white')};
+`
+
+const SandwichesGroup = styled.div`
+  width: 75%;
+  position: relative;
   margin-bottom: 5%;
   background-color: ${getColor('white')};
 `
@@ -131,6 +137,22 @@ const menu = () => (
           )
         })}
       </SidesGroup>
+      <SandwichesGroup>
+        <SectionHeader sectionName={"Sandwiches"} />
+          {JSONData.sandwiches_list.map((data,index) =>{
+            return (
+            <>
+              <MenuItem 
+              key={`sandwich_${index}`} 
+              itemName={data.sandwich_name}
+              description={data.sandwich_description}
+              price={data.sandwich_price}
+              />
+              <ItemDivider/>
+            </>
+            )
+          })}
+      </SandwichesGroup>
     </MenuWrapper>
   </Layout>
 )
