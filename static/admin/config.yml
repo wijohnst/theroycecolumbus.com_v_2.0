@@ -35,7 +35,6 @@ collections:
                 multiple: true
                 options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish]
                 default: [None]
-        widget: "object"
         fields:
           - label: Salads
             name : salads_list
@@ -50,7 +49,6 @@ collections:
                 multiple: true
                 options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish]
                 default: [None]
-        widget: "object"
         fields:
           - label: Sides
             name : sides_list
