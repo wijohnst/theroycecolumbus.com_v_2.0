@@ -4,10 +4,15 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+import { getScreen } from '../Utils/getScreen'
+import { getFont } from '../Utils/getFont'
+
 import JSONData from "../../src/content/menu.json"
 
 import MenuHeader from '../components/Menu_Components/menuHeader'
 import SubHeadDivider from '../components/Menu_Components/subHeadDivider'
+import SectionHeader from '../components/Menu_Components/sectionHeader'
+import MenuItem from '../components/Menu_Components/menuItem'
 
 const MenuWrapper = styled.div`
   display: flex;
@@ -17,24 +22,39 @@ const MenuWrapper = styled.div`
 `
 const MenuHeaderWrapper = styled.div`
   width: 50%;
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 95%;
+  }
 `
 const MenuSubHeadGroup = styled.div`
-  /* background-color :  lightpink; */
   width: 25%;
-
   position: relative;
   top: -5%;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `
+
+const MenuSubHeading = styled.p`
+  font-family: ${getFont('heading')};
+  font-size: 1.5rem;
+  font-weight: 800;
+`
 const MenuSubHeadDividerWrapper = styled.div`
   width: 100%;
-
   position: relative;
   top: -25%;
+`
+const AppetizersGroup = styled.div`
+  width: 100%;
+  position: relative;
+  top: -5%;
+`
+
+const ItemDivider = styled.hr`
+  max-width: 50%;
 `
 
 const menu = () => (
@@ -45,11 +65,28 @@ const menu = () => (
         <MenuHeader />
       </MenuHeaderWrapper>
       <MenuSubHeadGroup>
-        <h2>Menu</h2>
+        <MenuSubHeading>Menu</MenuSubHeading>
         <MenuSubHeadDividerWrapper>
           <SubHeadDivider />
         </MenuSubHeadDividerWrapper>
       </MenuSubHeadGroup>
+      <AppetizersGroup>
+        <SectionHeader sectionName={"Appetizers"} />
+        <ItemDivider />
+        {JSONData.appetizers_list.map((data,index) =>{
+          return (
+          <>
+            <MenuItem 
+            key={`appetizer_${index}`} 
+            itemName={data.app_name}
+            description={data.app_description}
+            price={data.app_price}
+            />
+            <ItemDivider/>
+          </>
+          )
+        })}
+      </AppetizersGroup>
     </MenuWrapper>
   </Layout>
 )
