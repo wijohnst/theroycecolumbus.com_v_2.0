@@ -29,6 +29,11 @@ const MenuHeaderWrapper = styled.div`
     width: 95%;
   }
 `
+const HeaderImage = styled.div`
+  margin: 0 auto;
+  width: 75%;
+  padding: 2%;
+`
 const MenuSubHeadGroup = styled.div`
   width: 75%;
   display: flex;
@@ -51,7 +56,6 @@ const MenuSubHeadDividerWrapper = styled.div`
 const AppetizersGroup = styled.div`
   width: 75%;
   position: relative;
-  top: -5%;
   background-color: ${getColor('white')};
 `
 const ItemDivider = styled.hr`
@@ -60,7 +64,6 @@ const ItemDivider = styled.hr`
 const SaladGroup = styled.div`
   width: 75%;
   position: relative;
-  margin-top: -5%;
   background-color: ${getColor('white')};
 `
 const SidesGroup = styled.div`
@@ -72,6 +75,16 @@ const SidesGroup = styled.div`
 const SandwichesGroup = styled.div`
   width: 75%;
   position: relative;
+  background-color: ${getColor('white')};
+`
+const MainsGroup = styled.div`
+  width: 75%;
+  position: relative;
+  background-color: ${getColor('white')};
+`
+const SweetsGroup = styled.div`
+  width: 75%;
+  position: relative;
   margin-bottom: 5%;
   background-color: ${getColor('white')};
 `
@@ -81,7 +94,9 @@ const menu = () => (
     <SEO title="Menu" />
     <MenuWrapper className="view_content">
       <MenuHeaderWrapper>
-        <MenuHeader />
+        <HeaderImage>
+          <MenuHeader />
+        </HeaderImage>
       </MenuHeaderWrapper>
       <MenuSubHeadGroup>
         <MenuSubHeading>Menu</MenuSubHeading>
@@ -100,7 +115,7 @@ const menu = () => (
             description={data.app_description}
             price={data.app_price}
             />
-            <ItemDivider/>
+            <ItemDivider />
           </>
           )
         })}
@@ -153,6 +168,38 @@ const menu = () => (
             )
           })}
       </SandwichesGroup>
+      <MainsGroup>
+        <SectionHeader sectionName={"Mains"} />
+          {JSONData.mains_list.map((data,index) =>{
+            return (
+            <>
+              <MenuItem 
+              key={`main_${index}`} 
+              itemName={data.main_name}
+              description={data.main_description}
+              price={data.main_price}
+              />
+              <ItemDivider/>
+            </>
+            )
+          })}
+      </MainsGroup>
+      <SweetsGroup>
+        <SectionHeader sectionName={"Sweets"} />
+          {JSONData.sweets_list.map((data,index) =>{
+            return (
+            <>
+              <MenuItem 
+              key={`sweet_${index}`} 
+              itemName={data.sweet_name}
+              description={data.sweet_description}
+              price={data.sweet_price}
+              />
+              <ItemDivider/>
+            </>
+            )
+          })}
+      </SweetsGroup>
     </MenuWrapper>
   </Layout>
 )
