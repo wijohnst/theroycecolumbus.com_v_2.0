@@ -120,5 +120,16 @@
       "app_description": "Sweet and spicy glaze, La Chinata mayo, pickled peanuts, cilantro",
       "app_price": "TBD"
     }
+  ],
+  "salads_list": [
+    {
+      "salad_allergies": [
+        "Nuts",
+        "Dairy"
+      ],
+      "salad_name": "Green",
+      "salad_description": "Baby kale, togarashi fried kale, green grapes, smoked hazelnuts, pecorino cheese, citrus vinaigrette",
+      "salad_price": "TBD"
+    }
   ]
 }
