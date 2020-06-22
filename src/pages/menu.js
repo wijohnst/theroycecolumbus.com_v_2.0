@@ -19,24 +19,23 @@ const MenuWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
-  background-color: ${getColor('white')};
+  height: 100vh;
 `
 const MenuHeaderWrapper = styled.div`
   width: 75%;
+  background-color: ${getColor('white')};
 
   @media (max-width: ${getScreen('mobile')}){
     width: 95%;
   }
 `
 const MenuSubHeadGroup = styled.div`
-  width: 50%;
-  position: relative;
-  top: -5%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: ${getColor('white')};
 `
 
 const MenuSubHeading = styled.p`
@@ -45,29 +44,30 @@ const MenuSubHeading = styled.p`
   font-weight: 800;
 `
 const MenuSubHeadDividerWrapper = styled.div`
-  width: 100%;
+  width: 50%;
   position: relative;
-  top: -25%;
+  top: -28%;
 `
 const AppetizersGroup = styled.div`
-  width: 100%;
+  width: 75%;
   position: relative;
   top: -5%;
+  background-color: ${getColor('white')};
 `
 const ItemDivider = styled.hr`
   max-width: 75%;
 `
 const SaladGroup = styled.div`
-  width: 100%;
+  width: 75%;
   position: relative;
-  top: -5%;
-  margin-top: 5%;
+  margin-top: -5%;
+  background-color: ${getColor('white')};
 `
 const SidesGroup = styled.div`
-  width: 100%;
+  width: 75%;
   position: relative;
-  top: -5%;
-  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: ${getColor('white')};
 `
 
 const menu = () => (
@@ -136,26 +136,3 @@ const menu = () => (
 )
 export default menu
 
-{/* <h1>MENU</h1>
-      <h2>Appetizers</h2>
-      <ul>
-        {JSONData.appetizers_list.map((data, index) => {
-          return <li key={`appetizer_${index}`}>{data.app_name}
-            <ul>
-              <li>{data.app_description}</li>
-              <li>${data.app_price}</li>
-            </ul>
-          </li>
-        })}
-      </ul>
-    <h2>Salads</h2>
-    <ul>
-      {JSONData.salads_list.map((data, index) => {
-        return <li key={`salad_${index}`}>{data.salad_name}
-          <ul>
-            <li>{data.salad_description}</li>
-            <li>${data.salad_price}</li>
-          </ul>
-        </li>
-      })}
-    </ul> */}
