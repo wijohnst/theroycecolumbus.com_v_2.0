@@ -214,5 +214,179 @@
       "side_description": "just like the real thing, only smaller",
       "side_price": "TBD"
     }
+  ],
+  "sandwiches_list": [
+    {
+      "sandwich_allergies": [
+        "Animal Product",
+        "Red Meat",
+        "Dairy",
+        "Gluten"
+      ],
+      "sandwich_name": "Royce Burger",
+      "sandwich_description": "Gruyere and cheddar cheese, house pickle, lettuce, tomato on brioche bun. Available in a single or a double.",
+      "sandwich_price": "TBD"
+    },
+    {
+      "sandwich_allergies": [
+        "Shellfish",
+        "Animal Product",
+        "Gluten"
+      ],
+      "sandwich_name": "Gulf Shrimp BLT",
+      "sandwich_description": "Butter poached lobster claw, smokey bacon, arugula, tomato, bourbon remoulade on brioche",
+      "sandwich_price": "TBD"
+    },
+    {
+      "sandwich_allergies": [
+        "Animal Product",
+        "Dairy",
+        "Gluten"
+      ],
+      "sandwich_name": "Cubano",
+      "sandwich_description": "Mojo pork, smoked ham, swiss cheese, house pickle, mustard, on Cubano loaf\n",
+      "sandwich_price": "TBD"
+    },
+    {
+      "sandwich_allergies": [
+        "Animal Product",
+        "Dairy",
+        "Gluten"
+      ],
+      "sandwich_name": "Fried Chicken",
+      "sandwich_description": "Green chilis, La Chinata mayo, vinegar slaw on telera roll",
+      "sandwich_price": "TBD"
+    },
+    {
+      "sandwich_allergies": [
+        "Animal Product",
+        "Dairy",
+        "Alliums"
+      ],
+      "sandwich_name": "Croque Monsieur",
+      "sandwich_description": "Smoked ham, gruyere, bechamel, malt vinegar onion rings",
+      "sandwich_price": "TBD"
+    },
+    {
+      "sandwich_allergies": [
+        "Gluten",
+        "Dairy"
+      ],
+      "sandwich_name": "Avocado Toast",
+      "sandwich_description": "Crushed avocado, Kelley Farm sun sprouts, cucumber, cilantro mojo on multigrain bread. Add a sunny-side up egg. Add bacon.",
+      "sandwich_price": "TBD"
+    }
+  ],
+  "mains_list": [
+    {
+      "main_allergies": [
+        "Animal Product",
+        "Dairy"
+      ],
+      "main_name": "Fried Chicken",
+      "main_description": "Mashed potatoes, mushroom gravy, green chili succotash, cotija",
+      "main_price": "TBD"
+    },
+    {
+      "main_allergies": [
+        "Animal Product",
+        "Red Meat",
+        "Dairy"
+      ],
+      "main_name": "Filet Migon",
+      "main_description": "Crispy truffle potatoes, asparagus, Swainway organic mushrooms, compound butter",
+      "main_price": "TBD"
+    },
+    {
+      "main_allergies": [
+        "Dairy",
+        "Animal Product",
+        "Fish"
+      ],
+      "main_name": "Pan Seared Salmon",
+      "main_description": "Black eye peas, miso butter, kale, tomato preserves",
+      "main_price": "TBD"
+    },
+    {
+      "main_allergies": [
+        "Animal Product",
+        "Alliums"
+      ],
+      "main_name": "Spaghetti-O's",
+      "main_description": "House blend pork sausage, spinach, peppers & onions, tomato sauce",
+      "main_price": "TBD"
+    },
+    {
+      "main_allergies": [
+        "Dairy",
+        "Red Meat",
+        "Animal Product",
+        "Alliums"
+      ],
+      "main_name": "Braised Short Ribs",
+      "main_description": "Creamy grits, braising veg, chow chow relish",
+      "main_price": "TBD"
+    },
+    {
+      "main_allergies": [
+        "Dairy",
+        "Fish"
+      ],
+      "main_name": "Whole Bronzino",
+      "main_description": "Grains, grapes, berbere zucchini, burnt lemon, yogurt",
+      "main_price": "TBD"
+    },
+    {
+      "main_allergies": [
+        "Dairy"
+      ],
+      "main_name": "Chickpea Taglietelle",
+      "main_description": "Cavolo nero, parmesan, preserved lemon, fenugreek corn croutons",
+      "main_price": "TBD"
+    }
+  ],
+  "sweets_list": [
+    {
+      "sweet_allergies": [
+        "Gluten",
+        "Dairy"
+      ],
+      "sweet_name": "Cookie Jar",
+      "sweet_description": "Are you a classic or an everything person?...Ask your server.",
+      "sweet_price": "TBD"
+    },
+    {
+      "sweet_allergies": [
+        "None"
+      ],
+      "sweet_name": "Carrot & Date Cake",
+      "sweet_description": "No refined sugars or butter, but you won't miss them.",
+      "sweet_price": "TBD"
+    },
+    {
+      "sweet_allergies": [
+        "Dairy",
+        "Gluten"
+      ],
+      "sweet_name": "Monkey Bread",
+      "sweet_description": "Cinnamon sugar, vanilla glaze",
+      "sweet_price": "TBD"
+    },
+    {
+      "sweet_allergies": [
+        "Dairy"
+      ],
+      "sweet_name": "Ice Creams",
+      "sweet_description": "Local flavors",
+      "sweet_price": "TBD"
+    },
+    {
+      "sweet_allergies": [
+        "Dairy"
+      ],
+      "sweet_name": "Strawberries and Cream",
+      "sweet_description": "Vanilla panna cotta, Szechuan peppercorn, basil",
+      "sweet_price": "TBD"
+    }
   ]
 }
