@@ -130,6 +130,89 @@
       "salad_name": "Green",
       "salad_description": "Baby kale, togarashi fried kale, green grapes, smoked hazelnuts, pecorino cheese, citrus vinaigrette",
       "salad_price": "TBD"
+    },
+    {
+      "salad_allergies": [
+        "Nuts",
+        "Dairy",
+        "Alliums"
+      ],
+      "salad_name": "Gem Lettuce",
+      "salad_description": "Roasted peaches, candied pecans, chevre, fried onions, buttermilk ranch",
+      "salad_price": "TBD"
+    },
+    {
+      "salad_allergies": [
+        "Alliums",
+        "Animal Product",
+        "Dairy"
+      ],
+      "salad_name": "Wedged",
+      "salad_description": "Iceberg lettuce, pickled onions, bacon-tomato confit, blue cheese dressing",
+      "salad_price": "TBD"
+    },
+    {
+      "salad_allergies": [
+        "Alliums",
+        "Dairy"
+      ],
+      "salad_name": "Watermelon ",
+      "salad_description": "Arugula, feta, red onion, mint, balsamic reduction",
+      "salad_price": "TBD"
+    }
+  ],
+  "sides_list": [
+    {
+      "side_allergies": [
+        "Gluten",
+        "Dairy",
+        "Animal Product"
+      ],
+      "side_name": "Mac & Cheese",
+      "side_description": "Orecchiette pasta, gruyere-cheddar sauce, pecorino panko crumble",
+      "side_price": "TBD"
+    },
+    {
+      "side_allergies": [
+        "Alliums",
+        "Dairy"
+      ],
+      "side_name": "Hand Cut Fried",
+      "side_description": "garlic, dill, cotija",
+      "side_price": "TBD"
+    },
+    {
+      "side_allergies": [
+        "Dairy"
+      ],
+      "side_name": "Creamy Grits",
+      "side_description": "Rosemary, parm, compound butter",
+      "side_price": "TBD"
+    },
+    {
+      "side_allergies": [
+        "Alliums"
+      ],
+      "side_name": "Skillet Beans",
+      "side_description": "Garlic and red peppers",
+      "side_price": "TBD"
+    },
+    {
+      "side_allergies": [
+        "None"
+      ],
+      "side_name": "Kimchi Potatoes",
+      "side_description": "Twice cooked Yukon potatoes, cabbage kimchi, caramelized soy, herbs",
+      "side_price": "TBD"
+    },
+    {
+      "side_allergies": [
+        "Nuts",
+        "Dairy"
+      ],
+      "side_name": "Green Side Salad",
+      "side_description": "just like the real thing, only smaller",
+      "side_price": "TBD"
     }
   ]
 }
