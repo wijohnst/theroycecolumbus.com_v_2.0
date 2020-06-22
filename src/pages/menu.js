@@ -6,6 +6,7 @@ import SEO from '../components/seo'
 
 import { getScreen } from '../Utils/getScreen'
 import { getFont } from '../Utils/getFont'
+import { getColor } from '../Utils/getColor'
 
 import JSONData from "../../src/content/menu.json"
 
@@ -18,17 +19,18 @@ const MenuWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  min-height: 100vh;
+  background-color: ${getColor('white')};
 `
 const MenuHeaderWrapper = styled.div`
-  width: 50%;
+  width: 75%;
 
   @media (max-width: ${getScreen('mobile')}){
     width: 95%;
   }
 `
 const MenuSubHeadGroup = styled.div`
-  width: 25%;
+  width: 50%;
   position: relative;
   top: -5%;
   display: flex;
@@ -39,7 +41,7 @@ const MenuSubHeadGroup = styled.div`
 
 const MenuSubHeading = styled.p`
   font-family: ${getFont('heading')};
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 800;
 `
 const MenuSubHeadDividerWrapper = styled.div`
@@ -52,9 +54,20 @@ const AppetizersGroup = styled.div`
   position: relative;
   top: -5%;
 `
-
 const ItemDivider = styled.hr`
-  max-width: 50%;
+  max-width: 75%;
+`
+const SaladGroup = styled.div`
+  width: 100%;
+  position: relative;
+  top: -5%;
+  margin-top: 5%;
+`
+const SidesGroup = styled.div`
+  width: 100%;
+  position: relative;
+  top: -5%;
+  margin-top: 5%;
 `
 
 const menu = () => (
@@ -72,7 +85,6 @@ const menu = () => (
       </MenuSubHeadGroup>
       <AppetizersGroup>
         <SectionHeader sectionName={"Appetizers"} />
-        <ItemDivider />
         {JSONData.appetizers_list.map((data,index) =>{
           return (
           <>
@@ -87,6 +99,38 @@ const menu = () => (
           )
         })}
       </AppetizersGroup>
+      <SaladGroup>
+      <SectionHeader sectionName={"Salads"} />
+        {JSONData.salads_list.map((data,index) =>{
+          return (
+          <>
+            <MenuItem 
+            key={`salad_${index}`} 
+            itemName={data.salad_name}
+            description={data.salad_description}
+            price={data.salad_price}
+            />
+            <ItemDivider/>
+          </>
+          )
+        })}
+      </SaladGroup>
+      <SidesGroup>
+      <SectionHeader sectionName={"Sides"} />
+        {JSONData.sides_list.map((data,index) =>{
+          return (
+          <>
+            <MenuItem 
+            key={`side_${index}`} 
+            itemName={data.side_name}
+            description={data.side_description}
+            price={data.side_price}
+            />
+            <ItemDivider/>
+          </>
+          )
+        })}
+      </SidesGroup>
     </MenuWrapper>
   </Layout>
 )
