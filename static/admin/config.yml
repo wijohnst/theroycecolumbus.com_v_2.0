@@ -35,8 +35,6 @@ collections:
                 multiple: true
                 options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish]
                 default: [None]
-        widget: "object"
-        fields:
           - label: Salads
             name : salads_list
             widget: list
@@ -50,16 +48,16 @@ collections:
                 multiple: true
                 options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish]
                 default: [None]
-          # - label: Sides
-          #   name : sides_list
-          #   widget: list
-          #   fields:
-          #     - { label: Item Name, name: side_name, widget: string }
-          #     - { label: Description, name: side_description, widget: text}
-          #     - { label: Price, name: side_price, widget: string}
-          #     - label: Allergies 
-          #       name: side_allergies
-          #       widget: select
-          #       multiple: true
-          #       options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish]
-          #       default: [None]
+          - label: Sides
+            name : sides_list
+            widget: list
+            fields:
+              - { label: Item Name, name: side_name, widget: string }
+              - { label: Description, name: side_description, widget: text}
+              - { label: Price, name: side_price, widget: string}
+              - label: Allergies 
+                name: side_allergies
+                widget: select
+                multiple: true
+                options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish]
+                default: [None]
