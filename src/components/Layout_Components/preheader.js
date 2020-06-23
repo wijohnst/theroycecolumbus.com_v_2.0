@@ -5,6 +5,7 @@ import ScrollContext from '../../Context/ScrollContext'
 
 import { getColor } from '../../Utils/getColor'
 import { getFont } from '../../Utils/getFont'
+import { getScreen } from '../../Utils/getScreen'
 
 
 const PreHeaderWrapper = styled.div`
@@ -16,12 +17,20 @@ const PreHeaderWrapper = styled.div`
   justify-content: center;
   align-items: center;
   max-height: 5vh; 
+
+  @media (max-width:${getScreen('mobile')}){
+    min-height: 5vh;
+    font-size: .3rem;
+  }
+
 `
 
 const AddressWrapper = styled.p`
   display: inline;
   margin-right: .5rem;
   text-align: center;
+
+  
 `
 
 const PhoneWrapper = styled.p`
@@ -47,7 +56,7 @@ export default function Preheader() {
         8791 Lyra Drive, Columbus, Ohio, 43240
       </AddressWrapper>
       <PhoneWrapper>
-        {`(614)-291-9915`}
+        <a href="tel:6142919915">{`(614)291-9915`}</a>
       </PhoneWrapper>
     </PreHeaderWrapper>
   )

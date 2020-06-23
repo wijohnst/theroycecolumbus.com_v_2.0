@@ -25,7 +25,7 @@ const HeaderWrapper = styled(motion.div)`
 
   @media (max-width: ${getScreen('mobile')}){
     flex-direction: column;
-    height: ${props => props.past ? '5vh' : '8vh'};
+    height: 8vh;
   }
 `
 
