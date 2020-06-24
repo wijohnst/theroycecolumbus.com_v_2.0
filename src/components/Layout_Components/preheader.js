@@ -7,6 +7,7 @@ import { getColor } from '../../Utils/getColor'
 import { getFont } from '../../Utils/getFont'
 import { getScreen } from '../../Utils/getScreen'
 
+import HamburgerMenu from '../Layout_Components/Header_Components/hamburgerMenu'
 
 const PreHeaderWrapper = styled.div`
   background-color: ${getColor(`secondary`)};
@@ -22,6 +23,27 @@ const PreHeaderWrapper = styled.div`
     min-height: 5vh;
     font-size: .3rem;
   }
+`
+
+const HamburgerWrapper = styled.div`
+
+  display: none;
+
+  &:hover{
+    cursor: pointer;
+  }
+
+  @media (max-width:${getScreen('mobile')}){
+
+    display: inline;
+    width: 25%;
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
 
 `
 
@@ -29,8 +51,6 @@ const AddressWrapper = styled.p`
   display: inline;
   margin-right: .5rem;
   text-align: center;
-
-  
 `
 
 const PhoneWrapper = styled.p`
@@ -58,6 +78,9 @@ export default function Preheader() {
       <PhoneWrapper>
         <a href="tel:6142919915">{`(614)291-9915`}</a>
       </PhoneWrapper>
+      <HamburgerWrapper>
+        <HamburgerMenu />
+      </HamburgerWrapper>
     </PreHeaderWrapper>
   )
 }

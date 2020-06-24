@@ -18,9 +18,10 @@ import "./layout.css"
 import Footer from './Layout_Components/footer'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab} from '@fortawesome/free-brands-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab)
+library.add(fab, faBars)
 
 const FooterWrapper = styled.div`
   position: fixed;
