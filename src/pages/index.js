@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import { getFont } from "../Utils/getFont"
 import { getColor } from "../Utils/getColor"
+import { getScreen } from "../Utils/getScreen"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -19,6 +20,12 @@ const BelowHeroGrid = styled.div`
   "hourlocation hourlocation";
 
   font-family: ${getFont('heading')};
+
+  @media (max-width: ${getScreen('mobile')}){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 `
 const AboutWrapper = styled.div`
   width: 100%;
@@ -35,6 +42,10 @@ const AboutInfo = styled.div`
   margin: 5px;
   border: solid thick ${getColor('white')};
   border-radius: 5px;
+
+  @media (max-width: ${getScreen('mobile')}){
+    margin: none;
+  }
 `
 
 const AboutHeading = styled.p`
@@ -64,6 +75,10 @@ const LogoText = styled.p`
 const RibFrameWrapper = styled.div`
   width: 100%;
   justify-self: center;
+
+  @media (max-width: ${getScreen('mobile')}){
+    display: none;
+  }
 `
 
 const HoursLocationWrapper = styled.div`
@@ -73,11 +88,15 @@ const HoursLocationWrapper = styled.div`
   width: 97%;
   max-height: 75%;
   padding: 5px;
-  /* justify-self: center; */
   border: solid thick ${getColor('white')};
   border-radius: 5px;
 
   display: flex;
+
+  @media (max-width: ${getScreen('mobile')}){
+    flex-direction: column;
+    max-width: 100%;
+  }
   
 
 `
@@ -87,6 +106,10 @@ const HoursWrapper=  styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+  }
 `
 
 const HoursListing = styled.div`
@@ -100,6 +123,11 @@ const LocationWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+    border-left: none;
+  }
 `
 
 export default function IndexPage(){

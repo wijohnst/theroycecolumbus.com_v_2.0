@@ -8,7 +8,7 @@ import { getScreen } from '../../../Utils/getScreen'
 const HeaderLogoWrapper = styled.div`
   height: 100%;
   width: 25%;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
