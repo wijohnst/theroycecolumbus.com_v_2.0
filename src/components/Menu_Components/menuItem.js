@@ -2,20 +2,38 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { getFont } from '../../Utils/getFont'
+import { getScreen } from '../../Utils/getScreen'
 
 const MenuItemWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 2%;
+
+  @media (max-width: ${getScreen('mobile')}){
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
 `
 
 const ItemName = styled.p`
   font-family: ${getFont('heading')};
   font-size: .75rem;
   line-height: .5;
+
+  @media (max-width: ${getScreen('mobile')}){
+    line-height: 1;
+  }
 `
 const DescriptionPriceGroup = styled.div`
   display: flex;
+
+  @media (max-width: ${getScreen('mobile')}){
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `
 const DescriptionWrapper = styled.div`
   width: 50%;
