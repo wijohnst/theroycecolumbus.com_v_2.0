@@ -132,6 +132,7 @@ collections:
             name: cocktail_list
             widget: list
             fields:
-              - { label: Cocktail Name, name: cocktial_name, widget: string }
+              - { label: Cocktail Name, name: cocktail_name, widget: string }
+              - { label: Ingredients, name: cocktail_ingredients, widget: text}
               - { label: Description, name: cocktail_description, widget: text}
               - { label: Price, name: cocktail_price, widget: string}
