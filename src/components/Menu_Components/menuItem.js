@@ -45,6 +45,7 @@ const DescriptionWrapper = styled.div`
 
   @media (max-width: ${getScreen('mobile')}){
     width: 100%;
+    text-align: center;
   }
 `
 const Description = styled.p`

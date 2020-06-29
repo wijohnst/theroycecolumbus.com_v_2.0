@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import { getShape } from '../../../Utils/getShape'
 import { getColor } from '../../../Utils/getColor'
+import { getScreen } from '../../../Utils/getScreen'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -23,6 +24,10 @@ const BadgeWrapper = styled.div`
   &:hover{
     transform: scale(1.1);
     transition: all .5s;
+  }
+
+  @media (max-width: ${getScreen('mobile')}){
+    background-color: ${getColor('secondary')};
   }
 `
 export default function Badge({ platform }) {
