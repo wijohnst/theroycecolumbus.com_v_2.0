@@ -45,7 +45,7 @@ module.exports = {
       options:{
         fonts: [
           `Cinzel Decorative`,
-          `Nanum Myeongjo`,
+          `Nanum Myeongjo\:400,700,800`,
           `Nanum Gothic\:400,700,800`
         ],
         display: 'swap'

@@ -23,7 +23,7 @@ const MenuWrapper = styled.div`
 
   @media (max-width: ${getScreen('mobile')}){
     position: relative;
-    top: 3%;
+    top: 2.25%;
   }
 `
 const MenuHeaderWrapper = styled.div`
@@ -32,14 +32,16 @@ const MenuHeaderWrapper = styled.div`
 
   @media (max-width: ${getScreen('mobile')}){
     width: 100%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    display: none;
   }
 `
 const HeaderImage = styled.div`
   margin: 0 auto;
   width: 75%;
-  padding: 2%;
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 90%;
+  }
 `
 const MenuSubHeadGroup = styled.div`
   width: 75%;
@@ -60,13 +62,17 @@ const MenuSubHeading = styled.p`
   font-weight: 800;
 
   @media (max-width: ${getScreen('mobile')}){
-    font-size: 1.25rem;
+    display: none;
   }
 `
 const MenuSubHeadDividerWrapper = styled.div`
   width: 50%;
   position: relative;
   top: -28%;
+
+  @media (max-width: ${getScreen('mobile')}){
+    display: none;
+  }
 `
 const AppetizersGroup = styled.div`
   width: 75%;
