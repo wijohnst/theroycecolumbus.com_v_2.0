@@ -4,7 +4,7 @@ html{
   font-size: 30px;
   line-height: 1;
   background-color: #99A995;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body{
