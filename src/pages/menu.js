@@ -23,7 +23,7 @@ const MenuWrapper = styled.div`
 
   @media (max-width: ${getScreen('mobile')}){
     position: relative;
-    top: 8%;
+    top: 3%;
   }
 `
 const MenuHeaderWrapper = styled.div`
