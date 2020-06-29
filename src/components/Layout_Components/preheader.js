@@ -22,13 +22,12 @@ const PreHeaderWrapper = styled.div`
   @media (max-width:${getScreen('mobile')}){
     min-height: 5vh;
     font-size: .3rem;
+    
   }
 `
 
 const HamburgerWrapper = styled.div`
-
   display: none;
-
   &:hover{
     cursor: pointer;
   }
@@ -36,12 +35,7 @@ const HamburgerWrapper = styled.div`
   @media (max-width:${getScreen('mobile')}){
 
     display: inline;
-    width: 25%;
-    flex-grow: 1;
-
     display: flex;
-    justify-content: center;
-    align-items: center;
     
   }
 
@@ -76,7 +70,7 @@ export default function Preheader() {
         8791 Lyra Drive, Columbus, Ohio, 43240
       </AddressWrapper>
       <PhoneWrapper>
-        <a href="tel:6142919915">{`(614)291-9915`}</a>
+        <a  style={{color: '#FFFFF0'}}href="tel:6142919915">{`(614)291-9915`}</a>
       </PhoneWrapper>
       <HamburgerWrapper>
         <HamburgerMenu />

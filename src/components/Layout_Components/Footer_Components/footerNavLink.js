@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 import { getFont } from '../../../Utils/getFont'
 import { getColor } from '../../../Utils/getColor'
+import { getScreen } from '../../../Utils/getScreen'
 
 const FooterNavLinkWrapper = styled.div`
   text-decoration: none;
@@ -11,6 +12,10 @@ const FooterNavLinkWrapper = styled.div`
   font-size: .6rem;
   font-weight: 700;
   margin-right: 20px;
+
+  @media (max-width: ${getScreen('mobile')}){
+    font-size: .5rem;
+  }
 `
 
 export default function FooterNavLink({linkInfo}) {

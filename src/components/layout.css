@@ -4,14 +4,13 @@ html{
   font-size: 30px;
   line-height: 1;
   background-color: #99A995;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body{
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  
 }
 
 a:link{

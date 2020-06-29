@@ -7,18 +7,20 @@ import { Link } from 'gatsby'
 
 const HamburgerMenuWrapper = styled.div`
   background-color :  ${getColor('secondary')};
-  width: ${props => props.isOpen ? "200vw" : "100vw"};
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  height: ${props => props.isOpen ? '75vh' : '0vh'};
+  height: ${props => props.isOpen ? '100vh' : '0vh'};
   z-index: 1000;
   position: ${props => props.isOpen ? 'relative' : 'static'};
   padding: 5%;
   transition: all .5s ease-in-out;
   border-radius: 5px;
   box-shadow: ${props => props.isOpen ? "5px 7px 12px rgba(0,0,0,.25)" : "none"};
+  /* background-color :  lightpink; */
+  margin-left: ${props => props.isOpen ? "0%" : "50%"};
+  margin-bottom: ${props => props.isOpen ? "0%" : "20%"};
 `
 const IconWrapper = styled.div`
   display: ${props => props.isOpen ? "none" : "block"};
@@ -31,13 +33,13 @@ const LinksGroup = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: .5rem;
+  font-size: .75rem;
   position: relative;
   top: 20%;
 `
 const LinkWrapper = styled.div`
   color: ${getColor('white')};
-  padding-bottom: 10%;
+  padding-bottom: 15%;
 `
 export default function HamburgerMenu() {
 
@@ -46,7 +48,7 @@ export default function HamburgerMenu() {
   return (
     <HamburgerMenuWrapper isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}>
       <IconWrapper isOpen={isOpen}>
-        <FontAwesomeIcon icon={'bars'} size={'2x'} />
+        <FontAwesomeIcon icon={'bars'} size={'3x'} />
       </IconWrapper>
       <LinksGroup isOpen={isOpen}>
         <LinkWrapper>
