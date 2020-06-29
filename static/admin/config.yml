@@ -111,7 +111,6 @@ collections:
             fields:
               - { label: Beer Name, name: beer_name, widget: string }
               - { label: Style, name: beer_style, widget: string}
-              - { label: Description, name: beer_description, widget: text}
               - { label: Price, name: beer_price, widget: string}
           - label: Wine
             name: wine_list
