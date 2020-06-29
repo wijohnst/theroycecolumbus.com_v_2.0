@@ -32,6 +32,9 @@ const AboutWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+
+  @media (max-width: ${getScreen('mobile')}){
+  }
 `
 
 const AboutInfo = styled.div`
@@ -51,11 +54,19 @@ const AboutInfo = styled.div`
 const AboutHeading = styled.p`
   font-size: 1.5rem;
   font-weight: 600;
+
+  @media (max-width: ${getScreen('mobile')}){
+    text-align: center;
+  }
 `
 
 const AboutDivider = styled.hr`
   position: relative;
   top: -20px;
+
+  @media (max-width: ${getScreen('mobile')}){
+    display: none;
+  }
 `
 const AboutText = styled.div`
   text-align: center;
@@ -83,19 +94,19 @@ const RibFrameWrapper = styled.div`
 
 const HoursLocationWrapper = styled.div`
   position: relative;
-  top: 5%;
+  top: 15%;
   left: 1%;
   width: 97%;
   max-height: 75%;
   padding: 5px;
   border: solid thick ${getColor('white')};
   border-radius: 5px;
-
   display: flex;
 
   @media (max-width: ${getScreen('mobile')}){
     flex-direction: column;
-    max-width: 100%;
+    height: 100%;
+    max-width: 92%;
   }
   
 
@@ -109,12 +120,19 @@ const HoursWrapper=  styled.div`
 
   @media (max-width: ${getScreen('mobile')}){
     width: 100%;
+    /* align-items: flex-start; */
   }
 `
 
 const HoursListing = styled.div`
   text-align: center;
   font-family: ${getFont('text')};
+
+  @media (max-width: ${getScreen('mobile')}){
+    font-size: .75rem;
+    display: flex;
+    flex-direction: column;
+  }
 `
 const LocationWrapper = styled.div`
   width: 50%;
@@ -126,7 +144,9 @@ const LocationWrapper = styled.div`
 
   @media (max-width: ${getScreen('mobile')}){
     width: 100%;
+    height: 100%;
     border-left: none;
+    padding-bottom: 20%;
   }
 `
 
@@ -143,13 +163,13 @@ export default function IndexPage(){
           <AboutDivider />
           <AboutText>
             <WeText style={{lineHeight: .25}}>We are</WeText>
-            <p style={{lineHeight: .25}}>Columbus' most anticipated new restaurant.</p>
+            <p>Columbus' most anticipated new restaurant.</p>
             <br />
             <WeText style={{lineHeight: .25}}>We are</WeText>
-            <p style={{lineHeight: .25}}>committed to hospitality, quality, and creativity.</p>
+            <p>committed to hospitality, quality, and creativity.</p>
             <br />
             <WeText style={{lineHeight: .25}}>We are</WeText>
-            <p style={{lineHeight: .25}}>are passionate about our craft and dedicated to improving every day.</p>
+            <p>are passionate about our craft and dedicated to improving every day.</p>
             <br />
             <WeText style={{lineHeight: .25}}>We are</WeText>
             <LogoText style={{lineHeight: .25}}>The ROyce</LogoText>
