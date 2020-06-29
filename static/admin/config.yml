@@ -33,7 +33,7 @@ collections:
                 name: app_allergies
                 widget: select
                 multiple: true
-                options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish, Soy]
+                options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish]
                 default: [None]
           - label: Salads
             name : salads_list
@@ -100,3 +100,38 @@ collections:
                 multiple: true
                 options: [None, Dairy, Red Meat, Alliums, Soy, Gluten, Animal Product, Fish, Nuts, Shellfish, Soy]
                 default: [None]
+      - label: "Beverage Menu"
+        name: "bev_menu"
+        file: "src/content/bev_menu.json"
+        widget: "object"
+        fields:
+          - label: Beers
+            name: beer_list
+            widget: list
+            fields:
+              - { label: Beer Name, name: beer_name, widget: string }
+              - { label: Style, name: beer_style, widget: string}
+              - { label: Description, name: beer_description, widget: text}
+              - { label: Price, name: beer_price, widget: string}
+          - label: Wine
+            name: wine_list
+            widget: list
+            fields:
+              - { label: Wine Name, name: wine_name, widget: string }
+              - label: Category
+                name: wine_category 
+                widget: select
+                multiple: false
+                options: [Other, White, Red, Blend, Rosé, Bubbles, Dessert]
+                default: [Other]
+              - { label: Varietal, name: wine_varietal, widget: string}
+              - { label: Description, name: wine_description, widget: text}
+              - { label: Bottle Price, name: bottle_price, widget: string}
+              - { label: Glass Price, name: glass_price, widget: string}
+          - label: Cocktails
+            name: cocktail_list
+            widget: list
+            fields:
+              - { label: Cocktail Name, name: cocktial_name, widget: string }
+              - { label: Description, name: cocktail_description, widget: text}
+              - { label: Price, name: cocktail_price, widget: string}
