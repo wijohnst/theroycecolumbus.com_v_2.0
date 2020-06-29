@@ -20,13 +20,20 @@ const MenuWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   height: 100vh;
+
+  @media (max-width: ${getScreen('mobile')}){
+    position: relative;
+    top: 8%;
+  }
 `
 const MenuHeaderWrapper = styled.div`
   width: 75%;
   background-color: ${getColor('white')};
 
   @media (max-width: ${getScreen('mobile')}){
-    width: 95%;
+    width: 100%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
   }
 `
 const HeaderImage = styled.div`
@@ -41,12 +48,20 @@ const MenuSubHeadGroup = styled.div`
   justify-content: center;
   align-items: center;
   background-color: ${getColor('white')};
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+  }
 `
 
 const MenuSubHeading = styled.p`
   font-family: ${getFont('heading')};
   font-size: 2rem;
   font-weight: 800;
+
+  @media (max-width: ${getScreen('mobile')}){
+    font-size: 1.25rem;
+  }
 `
 const MenuSubHeadDividerWrapper = styled.div`
   width: 50%;
@@ -57,6 +72,10 @@ const AppetizersGroup = styled.div`
   width: 75%;
   position: relative;
   background-color: ${getColor('white')};
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+  }
 `
 const ItemDivider = styled.hr`
   max-width: 75%;
@@ -65,28 +84,48 @@ const SaladGroup = styled.div`
   width: 75%;
   position: relative;
   background-color: ${getColor('white')};
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+  }
 `
 const SidesGroup = styled.div`
   width: 75%;
   position: relative;
   background-color: ${getColor('white')};
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+  }
 `
 
 const SandwichesGroup = styled.div`
   width: 75%;
   position: relative;
   background-color: ${getColor('white')};
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+  }
 `
 const MainsGroup = styled.div`
   width: 75%;
   position: relative;
   background-color: ${getColor('white')};
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+  }
 `
 const SweetsGroup = styled.div`
   width: 75%;
   position: relative;
   margin-bottom: 5%;
   background-color: ${getColor('white')};
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+  }
 `
 
 const menu = () => (
