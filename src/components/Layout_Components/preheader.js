@@ -13,7 +13,7 @@ const PreHeaderWrapper = styled.div`
   background-color: ${getColor(`secondary`)};
   font-family: ${getFont(`text`)}, sans-serif;
   font-size: .5rem;
-  color: white;
+  color: ${getColor('white')};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,6 @@ const PreHeaderWrapper = styled.div`
   @media (max-width:${getScreen('mobile')}){
     min-height: 5vh;
     font-size: .3rem;
-    
   }
 `
 
@@ -45,11 +44,19 @@ const AddressWrapper = styled.p`
   display: inline;
   margin-right: .5rem;
   text-align: center;
+
+  @media (max-width: ${getScreen('mobile')}){
+    color: ${getColor('black')};
+  }
 `
 
 const PhoneWrapper = styled.p`
   display: inline;
   text-align: center;
+
+  @media (max-width: ${getScreen('mobile')}){
+    color: ${getColor('black')};
+  }
 `
 
 export default function Preheader() {
@@ -70,7 +77,7 @@ export default function Preheader() {
         8791 Lyra Drive, Columbus, Ohio, 43240
       </AddressWrapper>
       <PhoneWrapper>
-        <a  style={{color: '#FFFFF0'}}href="tel:6142919915">{`(614)291-9915`}</a>
+        <a  href="tel:6142919915">{`(614)291-9915`}</a>
       </PhoneWrapper>
       <HamburgerWrapper>
         <HamburgerMenu />
