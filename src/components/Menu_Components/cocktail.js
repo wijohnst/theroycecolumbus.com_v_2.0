@@ -25,32 +25,47 @@ const ItemName = styled.p`
     font-weight: 800;
   }
 `
-const IngredientsWrapper = styled.div`
-  display: flex;
-  font-size: .5rem;
-  padding-left: 2%;
-  font-family: ${getFont('text')};
-
-  @media (max-width: ${getScreen('mobile')}){
-    text-align: center;
-  }
-`
 const DescriptionWrapper = styled.div`
   display: flex;
   padding-left: 2%;
   font-size: .5rem;
   font-family: ${getFont('text')};
+  margin-bottom: 1.5%;
   
   @media (max-width: ${getScreen('mobile')}){
     position: relative;
     top: -12px;
   }
 `
+
+const IngredientPriceWrapper = styled.div`
+  display: flex;
+
+  @media (max-width: ${getScreen('mobile')}){
+    flex-direction: column;
+    align-items: center;  
+  }
+`
+const IngredientsWrapper = styled.div`
+  display: flex;
+  font-size: .5rem;
+  padding-left: 2%;
+  font-family: ${getFont('text')};
+  margin-bottom: 1.5%;
+
+  @media (max-width: ${getScreen('mobile')}){
+    text-align: center;
+  }
+`
 const PriceWrapper = styled.div`
   display: flex;
   padding-left: 2%;
-  font-family: ${getFont('text')};
+  font-family: ${getFont('heading')};
   font-size: .5rem;
+  
+  @media (max-width: ${getScreen('mobile')}){
+    margin-top: 2%;
+  }
 `
 
 export default function Cocktail(props) {
@@ -61,8 +76,10 @@ export default function Cocktail(props) {
     <CocktailWrapper>
       <ItemName>{itemName}</ItemName>
       <DescriptionWrapper>{description}</DescriptionWrapper>
-      <IngredientsWrapper>{ingredients}</IngredientsWrapper>
-      <PriceWrapper>${price}</PriceWrapper>
+      <IngredientPriceWrapper>
+        <IngredientsWrapper>{ingredients}</IngredientsWrapper>
+        <PriceWrapper>${price}</PriceWrapper>
+      </IngredientPriceWrapper>
     </CocktailWrapper>
   )
 }
