@@ -49,5 +49,121 @@
       "cocktail_price": "TBD"
     }
   ],
-  "beer_list": []
+  "beer_list": [
+    {
+      "beer_name": "Bud Light",
+      "beer_style": "Light Lager",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Great Lakes Siren Shores",
+      "beer_style": "Saison",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Rockmill Saison Noir",
+      "beer_style": "Saison",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Seventh Son Assistant Manager",
+      "beer_style": "American Pale Ale",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Columbus Brewing Company IPA",
+      "beer_style": "IPA",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "BrewDog Elvis Juice",
+      "beer_style": "IPA",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Jackie O's Mystic Mam",
+      "beer_style": "IPA",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "BrewDog Clockwork Tangerine",
+      "beer_style": "Session IPA",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Two Roads Lil' Heaven",
+      "beer_style": "Session IPA",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Seventh Son Humulus Nimbus",
+      "beer_style": "Pale Ale",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Great Lakes Elliot Ness",
+      "beer_style": "Amber Ale",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "New Belgium Fat Tire",
+      "beer_style": "Amber Ale",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Great Lakes Christmas Ale",
+      "beer_style": "Brown Ale",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Scrimshaw Pilsner",
+      "beer_style": "Pilsner",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Sweet Water Mango Kush",
+      "beer_style": "Pilsner",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Blue Moon Belgian White",
+      "beer_style": "Wheat",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Angry Orchard Cider",
+      "beer_style": "Cider",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Seventh Son Kitty Paw",
+      "beer_style": "Seltzer",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Guiness Stout",
+      "beer_style": "Stout",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "BrewDog Jet Black Heart Espresso",
+      "beer_style": "Stout",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "BrewDog Hazy Jane",
+      "beer_style": "New England IPA",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Two Roads Prickly Pear",
+      "beer_style": "Sour",
+      "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Market Garden Shandy",
+      "beer_style": "Shandy ",
+      "beer_price": "TBD"
+    }
+  ]
 }
