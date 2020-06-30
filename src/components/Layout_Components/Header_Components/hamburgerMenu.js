@@ -11,7 +11,7 @@ const HamburgerMenuWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  height: ${props => props.isOpen ? '100vh' : '0vh'};
+  height: ${props => props.isOpen ? '200vh' : '0vh'};
   z-index: 1000;
   position: ${props => props.isOpen ? 'relative' : 'static'};
   padding: 5%;
