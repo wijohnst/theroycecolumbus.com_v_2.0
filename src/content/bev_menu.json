@@ -165,5 +165,6 @@
       "beer_style": "Shandy ",
       "beer_price": "TBD"
     }
-  ]
+  ],
+  "wine_list": []
 }
