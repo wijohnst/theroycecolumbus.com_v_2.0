@@ -48,5 +48,6 @@
       "cocktail_description": "TBD",
       "cocktail_price": "TBD"
     }
-  ]
+  ],
+  "beer_list": []
 }
