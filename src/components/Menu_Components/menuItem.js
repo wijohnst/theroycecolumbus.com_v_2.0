@@ -7,13 +7,12 @@ import { getScreen } from '../../Utils/getScreen'
 const MenuItemWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  /* padding-left: 2%; */
 
   @media (max-width: ${getScreen('mobile')}){
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* padding: none; */
+    
   }
 
 `

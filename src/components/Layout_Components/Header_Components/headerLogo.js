@@ -18,7 +18,9 @@ const HeaderLogoWrapper = styled.div`
 
   @media (max-width: ${getScreen('mobile')}){
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    justify-content: flex-start;
+    padding-left: 5%;
   }
 `
 

@@ -5,15 +5,15 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 import { getScreen } from '../Utils/getScreen'
-import { getFont } from '../Utils/getFont'
 import { getColor } from '../Utils/getColor'
 
 import JSONData from "../../src/content/menu.json"
 
 import MenuHeader from '../components/Menu_Components/menuHeader'
-import SubHeadDivider from '../components/Menu_Components/subHeadDivider'
 import SectionHeader from '../components/Menu_Components/sectionHeader'
 import MenuItem from '../components/Menu_Components/menuItem'
+
+import { Link } from "gatsby"
 
 const MenuWrapper = styled.div`
   display: flex;
@@ -29,6 +29,9 @@ const MenuWrapper = styled.div`
 const MenuHeaderWrapper = styled.div`
   width: 75%;
   background-color: ${getColor('white')};
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @media (max-width: ${getScreen('mobile')}){
     width: 100%;
@@ -36,42 +39,12 @@ const MenuHeaderWrapper = styled.div`
   }
 `
 const HeaderImage = styled.div`
-  margin: 0 auto;
+  margin-top: 2%;
   width: 75%;
+
 
   @media (max-width: ${getScreen('mobile')}){
     width: 90%;
-  }
-`
-const MenuSubHeadGroup = styled.div`
-  width: 75%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: ${getColor('white')};
-
-  @media (max-width: ${getScreen('mobile')}){
-    width: 100%;
-  }
-`
-
-const MenuSubHeading = styled.p`
-  font-family: ${getFont('heading')};
-  font-size: 2rem;
-  font-weight: 800;
-
-  @media (max-width: ${getScreen('mobile')}){
-    display: none;
-  }
-`
-const MenuSubHeadDividerWrapper = styled.div`
-  width: 50%;
-  position: relative;
-  top: -28%;
-
-  @media (max-width: ${getScreen('mobile')}){
-    display: none;
   }
 `
 const AppetizersGroup = styled.div`
@@ -133,22 +106,27 @@ const SweetsGroup = styled.div`
     width: 100%;
   }
 `
+const MenuNavWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10%;
+  width: 100%;
+`
 
 const menu = () => (
   <Layout>
     <SEO title="Menu" />
     <MenuWrapper className="view_content">
+      <MenuNavWrapper>
+        <Link to="/cocktailMenu" style={{marginRight: '5%', textDecoration: 'none'}}>Cocktails</Link>
+        <Link to="/wineBeerMenu" style={{textDecoration: 'none'}}>{`Wine & Beer`}</Link>
+      </MenuNavWrapper>
       <MenuHeaderWrapper>
         <HeaderImage>
           <MenuHeader />
         </HeaderImage>
       </MenuHeaderWrapper>
-      <MenuSubHeadGroup>
-        <MenuSubHeading>Menu</MenuSubHeading>
-        <MenuSubHeadDividerWrapper>
-          <SubHeadDivider />
-        </MenuSubHeadDividerWrapper>
-      </MenuSubHeadGroup>
       <AppetizersGroup>
         <SectionHeader sectionName={"Appetizers"} />
         {JSONData.appetizers_list.map((data,index) =>{
