@@ -127,9 +127,9 @@
         "Nuts",
         "Dairy"
       ],
-      "salad_name": "Green",
-      "salad_description": "Baby kale, togarashi fried kale, green grapes, smoked hazelnuts, pecorino cheese, citrus vinaigrette",
-      "salad_price": "TBD"
+      "salad_name": "Crunch Kale",
+      "salad_description": "Baby kale, togarashi fried kale, green grapes, smoked hazelnuts, pecorino cheese, lemon vinaigrette",
+      "salad_price": "8"
     },
     {
       "salad_allergies": [
@@ -139,7 +139,7 @@
       ],
       "salad_name": "Gem Lettuce",
       "salad_description": "Roasted peaches, candied pecans, chevre, fried onions, buttermilk ranch",
-      "salad_price": "TBD"
+      "salad_price": "7"
     },
     {
       "salad_allergies": [
@@ -148,17 +148,18 @@
         "Dairy"
       ],
       "salad_name": "Wedged",
-      "salad_description": "Iceberg lettuce, pickled onions, bacon-tomato confit, blue cheese dressing",
-      "salad_price": "TBD"
+      "salad_description": "Ice lettuce, pickled onions, bacon-tomato confit, blue cheese dressing",
+      "salad_price": "8"
     },
     {
       "salad_allergies": [
+        "Dairy",
         "Alliums",
-        "Dairy"
+        "Animal Product"
       ],
-      "salad_name": "Watermelon ",
-      "salad_description": "Arugula, feta, red onion, mint, balsamic reduction",
-      "salad_price": "TBD"
+      "salad_name": "Field Greens",
+      "salad_description": "Arugula and leaf lettuce, sliced strawberries, feta, red onion, mint, balsamic",
+      "salad_price": "7"
     }
   ],
   "sides_list": [
