@@ -2,9 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { getFont } from '../../Utils/getFont'
+import { getScreen } from '../../Utils/getScreen'
 
 const BeerWrapper = styled.div`
   margin-left: 2%;
+  font-size: .75rem;
+
+  @media (max-width: ${getScreen('mobile')}){
+    font-size: .5rem;
+  }
 `
 
 const NamePriceGroup = styled.div`
@@ -13,22 +19,22 @@ const NamePriceGroup = styled.div`
 `
 const BeerName = styled.p`
   font-family: ${getFont('text')};
-  font-size: .75rem;
   margin-left: 5%;
+  max-width: 15ch;
 `
 
 const BeerPriceWrapper = styled.div`
   flex-grow: 1;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
   
 `
 
 const BeerPrice = styled.p`
   font-family: ${getFont('heading')};
-  font-size: .75rem;
   margin-right: 5%;
+  
 `
-
 
 export default function Beer(props) {
 
@@ -41,7 +47,6 @@ export default function Beer(props) {
           <BeerPrice>${beer_price}</BeerPrice>
         </BeerPriceWrapper>
       </NamePriceGroup>
-      
     </BeerWrapper>
   )
 }
