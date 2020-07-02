@@ -24,8 +24,16 @@ const MenuNavWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 15%;
-  width: 100%;
+  min-height: 10%;
+  width: 75%;
+
+  background-color: ${getColor('white')};
+
+  @media (max-width: ${getScreen('mobile')}){
+    width: 100%;
+    text-align: center;
+    font-size: .75rem;
+  }
 `
 const MenuHeaderWrapper = styled.div`
   width: 75%;
@@ -68,8 +76,8 @@ export default function CocktailMenu() {
       <SEO title="Cocktail Menu" />
       <CocktailMenuWrapper className="view_content">
         <MenuNavWrapper>
-          <Link to="/menu" style={{marginRight: '5%', textDecoration: 'none'}}>Food</Link>
-          <Link to="/wineBeerMenu" style={{textDecoration: 'none'}}>{`Wine & Beer`}</Link>
+          <Link to="/menu" style={{marginRight: '5%', textDecoration: 'none'}}>Food Menu</Link>
+          <Link to="/wineBeerMenu" style={{textDecoration: 'none'}}>{`Wine & Beer Menu`}</Link>
         </MenuNavWrapper>
         <MenuHeaderWrapper>
           <HeaderImage>
