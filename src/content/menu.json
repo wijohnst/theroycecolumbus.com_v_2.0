@@ -4,11 +4,12 @@
   "appetizers_list": [
     {
       "app_allergies": [
-        "Animal Product"
+        "Animal Product",
+        "Dairy"
       ],
-      "app_name": "Cornbread Madeleines",
-      "app_description": "Jalapeño, Kelley Farms honey butter, sea salt",
-      "app_price": "TBD"
+      "app_name": "Cornbread Drop Biscuits",
+      "app_description": "Pepper jelly, Kelley Farms honey butter, sea salt",
+      "app_price": "7"
     },
     {
       "app_allergies": [
@@ -17,7 +18,7 @@
       ],
       "app_name": "Deviled Eggs",
       "app_description": "Chopped pickle, dill, fried chicken crunch",
-      "app_price": "TBD"
+      "app_price": "7"
     },
     {
       "app_allergies": [
@@ -25,36 +26,29 @@
         "Animal Product"
       ],
       "app_name": "Smokin' Hot Dates",
-      "app_description": "Goat cheese stuffed dates, agrodolce, hazelnuts, pork floss ( or bonito )",
-      "app_price": "TBD"
-    },
-    {
-      "app_allergies": [
-        "Fish",
-        "Animal Product",
-        "Gluten",
-        "Dairy"
-      ],
-      "app_name": "Crackers and Spreads",
-      "app_description": "Salmon rillettes, truffle mushroom, Grandma's cheese ball with lavosh and buttery crackers",
-      "app_price": "TBD"
+      "app_description": "Goat cheese stuffed dates, agrodolce, hazelnuts, pork floss ",
+      "app_price": "9"
     },
     {
       "app_allergies": [
         "Dairy",
-        "Allums"
+        "Animal Product",
+        "Nuts",
+        "Gluten"
       ],
-      "app_name": "NOLA Baked Oysters",
-      "app_description": "St. Claude style. Parmesan butter crust, garlicky hot sauce",
-      "app_price": "TBD"
+      "app_name": "Meat & Cheese Board",
+      "app_description": "French goat cheese, aged gouda, pecan cheese ball, coppa, summer sausage, buttery crackers",
+      "app_price": "16"
     },
     {
       "app_allergies": [
-        "Gluten"
+        "Dairy",
+        "Animal Product",
+        "Shellfish"
       ],
-      "app_name": "Warm Butter Hummus",
-      "app_description": "Basturma spicked chickpeas, cucumber, radish, toasty bread",
-      "app_price": "TBD"
+      "app_name": "NOLA Baked Oysters",
+      "app_description": "St. Claude style. Parmesan butter crust, garlicky hot sauce",
+      "app_price": "14"
     },
     {
       "app_allergies": [
@@ -63,62 +57,25 @@
       ],
       "app_name": "Guajillo Glazed Pork Belly",
       "app_description": "Crispy pork, street corn salad, cilantro",
-      "app_price": "TBD"
+      "app_price": "16"
     },
     {
       "app_allergies": [
-        "Allums",
-        "Gluten"
+        "Gluten",
+        "Shellfish"
       ],
       "app_name": "Drunken Mussels",
       "app_description": "Calabrian style with hot chilis, white wine tomato broth, fennel oil, torn bread",
-      "app_price": "TBD"
+      "app_price": "12"
     },
     {
       "app_allergies": [
-        "Dairy"
-      ],
-      "app_name": "Kung Pow Wings",
-      "app_description": "Szechuan pepper sauce, pickled peanuts, celery, buttermilk ranch",
-      "app_price": "TBD"
-    },
-    {
-      "app_allergies": [
-        "Animal Product",
-        "Red Meat",
-        "Allums"
-      ],
-      "app_name": "Chef Snack",
-      "app_description": "Hand rolled Swedish meatballs, pickled onions, dill, cardamom mushrooms",
-      "app_price": "TBD"
-    },
-    {
-      "app_allergies": [
-        "Animal Product",
-        "Red Meat",
-        "Dairy"
-      ],
-      "app_name": "Poutin",
-      "app_description": "No. 1 short rib, curds, red wine sauce\nNo. 2 smoked mushroom, curds, mushroom sauce\n",
-      "app_price": "TBD"
-    },
-    {
-      "app_allergies": [
-        "Fish",
-        "Allums",
-        "Animal Product"
-      ],
-      "app_name": "Spanish Octopus",
-      "app_description": "Fresno chili sofrito, creamed corn, Royce Spice potatoes, basil seed",
-      "app_price": "TBD"
-    },
-    {
-      "app_allergies": [
-        "Dairy"
+        "Dairy",
+        "Nuts"
       ],
       "app_name": "Cast Iron Cauliflower",
       "app_description": "Sweet and spicy glaze, La Chinata mayo, pickled peanuts, cilantro",
-      "app_price": "TBD"
+      "app_price": "9"
     }
   ],
   "salads_list": [
