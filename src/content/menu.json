@@ -135,17 +135,17 @@
         "Alliums",
         "Dairy"
       ],
-      "side_name": "Hand Cut Fried",
+      "side_name": "Fries",
       "side_description": "garlic, dill, cotija",
-      "side_price": "TBD"
+      "side_price": "5"
     },
     {
       "side_allergies": [
         "Dairy"
       ],
       "side_name": "Creamy Grits",
-      "side_description": "Rosemary, parm, compound butter",
-      "side_price": "TBD"
+      "side_description": "compound butter",
+      "side_price": "5"
     },
     {
       "side_allergies": [
@@ -153,7 +153,7 @@
       ],
       "side_name": "Skillet Beans",
       "side_description": "Garlic and red peppers",
-      "side_price": "TBD"
+      "side_price": "6"
     },
     {
       "side_allergies": [
@@ -161,16 +161,7 @@
       ],
       "side_name": "Kimchi Potatoes",
       "side_description": "Twice cooked Yukon potatoes, cabbage kimchi, caramelized soy, herbs",
-      "side_price": "TBD"
-    },
-    {
-      "side_allergies": [
-        "Nuts",
-        "Dairy"
-      ],
-      "side_name": "Green Side Salad",
-      "side_description": "just like the real thing, only smaller",
-      "side_price": "TBD"
+      "side_price": "6"
     }
   ],
   "sandwiches_list": [
@@ -242,9 +233,9 @@
         "Animal Product",
         "Dairy"
       ],
-      "main_name": "Fried Chicken",
-      "main_description": "Mashed potatoes, mushroom gravy, green chili succotash, cotija",
-      "main_price": "TBD"
+      "main_name": "Roasted Chicken",
+      "main_description": "mashed potatoes, chicken gravy, skillet beans",
+      "main_price": "18"
     },
     {
       "main_allergies": [
@@ -252,7 +243,7 @@
         "Red Meat",
         "Dairy"
       ],
-      "main_name": "Filet Migon",
+      "main_name": "N.Y. Strip",
       "main_description": "Crispy truffle potatoes, asparagus, Swainway organic mushrooms, compound butter",
       "main_price": "TBD"
     },
@@ -264,7 +255,7 @@
       ],
       "main_name": "Pan Seared Salmon",
       "main_description": "Black eye peas, miso butter, kale, tomato preserves",
-      "main_price": "TBD"
+      "main_price": "25"
     },
     {
       "main_allergies": [
@@ -273,7 +264,7 @@
       ],
       "main_name": "Spaghetti-O's",
       "main_description": "House blend pork sausage, spinach, peppers & onions, tomato sauce",
-      "main_price": "TBD"
+      "main_price": "20"
     },
     {
       "main_allergies": [
@@ -284,24 +275,24 @@
       ],
       "main_name": "Braised Short Ribs",
       "main_description": "Creamy grits, braising veg, chow chow relish",
-      "main_price": "TBD"
+      "main_price": "21"
     },
     {
       "main_allergies": [
         "Dairy",
         "Fish"
       ],
-      "main_name": "Whole Bronzino",
-      "main_description": "Grains, grapes, berbere zucchini, burnt lemon, yogurt",
-      "main_price": "TBD"
+      "main_name": "Sea Bass",
+      "main_description": "Cous cous, grapes, berbere zucchini, burnt lemon, yogurt",
+      "main_price": "27"
     },
     {
       "main_allergies": [
         "Dairy"
       ],
-      "main_name": "Chickpea Taglietelle",
-      "main_description": "Cavolo nero, parmesan, preserved lemon, fenugreek corn croutons",
-      "main_price": "TBD"
+      "main_name": "Gluten Free Chickpea Taglietelle",
+      "main_description": "Cavolo nero, parmesan, preserved lemon, cracked pepper and fenugreek",
+      "main_price": "16"
     }
   ],
   "sweets_list": [
@@ -310,26 +301,18 @@
         "Gluten",
         "Dairy"
       ],
-      "sweet_name": "Cookie Jar",
-      "sweet_description": "Are you a classic or an everything person?...Ask your server.",
-      "sweet_price": "TBD"
-    },
-    {
-      "sweet_allergies": [
-        "None"
-      ],
-      "sweet_name": "Carrot & Date Cake",
-      "sweet_description": "No refined sugars or butter, but you won't miss them.",
-      "sweet_price": "TBD"
+      "sweet_name": "Warm Cookies",
+      "sweet_description": "Gooey chocolate chunk",
+      "sweet_price": "5"
     },
     {
       "sweet_allergies": [
         "Dairy",
         "Gluten"
       ],
-      "sweet_name": "Monkey Bread",
-      "sweet_description": "Cinnamon sugar, vanilla glaze",
-      "sweet_price": "TBD"
+      "sweet_name": "Cinnamon Pull-Apart Bread",
+      "sweet_description": "Warm cinnamon sugar bread, cinnamon ice cream ",
+      "sweet_price": "6"
     },
     {
       "sweet_allergies": [
@@ -337,7 +320,7 @@
       ],
       "sweet_name": "Ice Creams",
       "sweet_description": "Local flavors",
-      "sweet_price": "TBD"
+      "sweet_price": "5"
     },
     {
       "sweet_allergies": [
@@ -345,7 +328,7 @@
       ],
       "sweet_name": "Strawberries and Cream",
       "sweet_description": "Vanilla panna cotta, Szechuan peppercorn, basil",
-      "sweet_price": "TBD"
+      "sweet_price": "6"
     }
   ]
 }
