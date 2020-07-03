@@ -182,8 +182,8 @@
         "Gluten"
       ],
       "sandwich_name": "Royce Burger",
-      "sandwich_description": "Gruyere and cheddar cheese, house pickle, lettuce, tomato on brioche bun. Available in a single or a double.",
-      "sandwich_price": "TBD"
+      "sandwich_description": "Smash burger style with gruyere and cheddar cheese, house pickle, lettuce, tomato on brioche bun",
+      "sandwich_price": "14"
     },
     {
       "sandwich_allergies": [
@@ -192,8 +192,8 @@
         "Gluten"
       ],
       "sandwich_name": "Gulf Shrimp BLT",
-      "sandwich_description": "Butter poached lobster claw, smokey bacon, arugula, tomato, bourbon remoulade on brioche",
-      "sandwich_price": "TBD"
+      "sandwich_description": "Creole poached shrimp, smoky bacon, arugula, tomato, bourbon remoulade on brioche",
+      "sandwich_price": "13"
     },
     {
       "sandwich_allergies": [
@@ -203,7 +203,7 @@
       ],
       "sandwich_name": "Cubano",
       "sandwich_description": "Mojo pork, smoked ham, swiss cheese, house pickle, mustard, on Cubano loaf\n",
-      "sandwich_price": "TBD"
+      "sandwich_price": "12"
     },
     {
       "sandwich_allergies": [
@@ -213,17 +213,18 @@
       ],
       "sandwich_name": "Fried Chicken",
       "sandwich_description": "Green chilis, La Chinata mayo, vinegar slaw on telera roll",
-      "sandwich_price": "TBD"
+      "sandwich_price": "13"
     },
     {
       "sandwich_allergies": [
         "Animal Product",
         "Dairy",
-        "Alliums"
+        "Alliums",
+        "Gluten"
       ],
       "sandwich_name": "Croque Monsieur",
-      "sandwich_description": "Smoked ham, gruyere, bechamel, malt vinegar onion rings",
-      "sandwich_price": "TBD"
+      "sandwich_description": "Smoked ham, gruyere, bechamel, malt vinegar onion rings, served with a side green salad",
+      "sandwich_price": "12"
     },
     {
       "sandwich_allergies": [
@@ -231,8 +232,8 @@
         "Dairy"
       ],
       "sandwich_name": "Avocado Toast",
-      "sandwich_description": "Crushed avocado, Kelley Farm sun sprouts, cucumber, cilantro mojo on multigrain bread. Add a sunny-side up egg. Add bacon.",
-      "sandwich_price": "TBD"
+      "sandwich_description": "Crushed avocado, cilantro mojo, cucumber, radish, Kelley Farm sun sprouts, on multigrain bread\n(+) sunny egg $ | (+) bacon $",
+      "sandwich_price": "13"
     }
   ],
   "mains_list": [
