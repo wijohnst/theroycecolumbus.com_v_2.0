@@ -84,6 +84,7 @@ const CategoryWrapper = styled.div`
 
 const StyleHeading = styled.p`
   font-family: ${getFont('heading')};
+  font-size: .9rem;
   margin-left: 2%;
   font-weight: 800;
 `
