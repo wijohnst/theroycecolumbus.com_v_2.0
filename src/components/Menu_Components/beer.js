@@ -7,6 +7,7 @@ import { getScreen } from '../../Utils/getScreen'
 const BeerWrapper = styled.div`
   margin-left: 2%;
   font-size: .75rem;
+  background-color :  lightpink;
 
   @media (max-width: ${getScreen('mobile')}){
     font-size: .5rem;
@@ -47,6 +48,6 @@ export default function Beer(props) {
           <BeerPrice>${beer_price}</BeerPrice>
         </BeerPriceWrapper>
       </NamePriceGroup>
-    </BeerWrapper>
+     </BeerWrapper>
   )
 }
