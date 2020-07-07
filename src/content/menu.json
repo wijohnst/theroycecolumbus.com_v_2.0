@@ -127,7 +127,7 @@
         "Animal Product"
       ],
       "side_name": "Mac & Cheese",
-      "side_description": "Orecchiette pasta, gruyere-cheddar sauce, pecorino panko crumble",
+      "side_description": "Elbow mac, creamy cheddar sauce, bacon crumble",
       "side_price": "TBD"
     },
     {
@@ -135,7 +135,7 @@
         "Alliums",
         "Dairy"
       ],
-      "side_name": "Fries",
+      "side_name": "Steak Fries",
       "side_description": "garlic, dill, cotija",
       "side_price": "5"
     },
@@ -244,7 +244,7 @@
         "Dairy"
       ],
       "main_name": "N.Y. Strip",
-      "main_description": "Crispy truffle potatoes, asparagus, Swainway organic mushrooms, compound butter",
+      "main_description": "Crispy steak fries, bbq spice carrots, chimichurri",
       "main_price": "TBD"
     },
     {
@@ -291,7 +291,7 @@
         "Dairy"
       ],
       "main_name": "Gluten Free Chickpea Taglietelle",
-      "main_description": "Cavolo nero, parmesan, preserved lemon, cracked pepper and fenugreek",
+      "main_description": "Cavolo nero, chickpeas, preserved lemon, pecorino, cracked pepper and fenugreek",
       "main_price": "16"
     }
   ],
@@ -328,6 +328,23 @@
       ],
       "sweet_name": "Strawberries and Cream",
       "sweet_description": "Vanilla panna cotta, Szechuan peppercorn, basil",
+      "sweet_price": "6"
+    },
+    {
+      "sweet_allergies": [
+        "Gluten",
+        "Dairy"
+      ],
+      "sweet_name": "Patsy's Peach Cobbler",
+      "sweet_description": "Sweet peaches, pie crust, vanilla bean ice cream ",
+      "sweet_price": "6"
+    },
+    {
+      "sweet_allergies": [
+        "None"
+      ],
+      "sweet_name": "GF Chocolate Brownie",
+      "sweet_description": "Vanilla bean ice cream",
       "sweet_price": "6"
     }
   ]
