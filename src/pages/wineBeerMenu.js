@@ -22,6 +22,11 @@ const CocktailMenuWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   height: 100%;
+
+  @media (max-width: ${getScreen('mobile')}){
+    position: relative;
+    top: 2.25%;
+  }
 `
 const MenuNavWrapper = styled.div`
   display: flex;
@@ -99,8 +104,8 @@ export default function WineBeerMenu() {
       <SEO title="Cocktail Menu" />
       <CocktailMenuWrapper className="view_content">
         <MenuNavWrapper>
-          <Link to="/menu" style={{marginRight: '5%', textDecoration: 'none'}}>Food Menu</Link>
-          <Link to="/cocktailMenu" style={{textDecoration: 'none'}}>Cocktail Menu</Link>
+          <Link to="/menu" style={{marginRight: '5%', textDecoration: 'none'}}>Food</Link>
+          <Link to="/cocktailMenu" style={{textDecoration: 'none'}}>Cocktails</Link>
         </MenuNavWrapper>
         <MenuHeaderWrapper>
           <HeaderImage>

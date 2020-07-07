@@ -112,7 +112,6 @@ const MenuNavWrapper = styled.div`
   align-items: center;
   min-height: 10%;
   width: 75%;
-
   background-color: ${getColor('white')};
 
   @media (max-width: ${getScreen('mobile')}){
@@ -126,8 +125,8 @@ const menu = () => (
     <SEO title="Menu" />
     <MenuWrapper className="view_content">
       <MenuNavWrapper>
-        <Link to="/cocktailMenu" style={{marginRight: '5%', textDecoration: 'none'}}>Cocktail Menu</Link>
-        <Link to="/wineBeerMenu" style={{textDecoration: 'none'}}>{`Wine & Beer Menu`}</Link>
+        <Link to="/cocktailMenu" style={{marginRight: '5%', textDecoration: 'none'}}>Cocktails</Link>
+        <Link to="/wineBeerMenu" style={{textDecoration: 'none'}}>{`Wine & Beer`}</Link>
       </MenuNavWrapper>
       <MenuHeaderWrapper>
         <HeaderImage>

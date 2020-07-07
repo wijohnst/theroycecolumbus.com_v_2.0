@@ -50,6 +50,7 @@ const DescriptionWrapper = styled.div`
 const Description = styled.p`
   font-family: ${getFont('text')};
   font-size: .5rem;
+  line-height: 1.5;
   
 `
 
