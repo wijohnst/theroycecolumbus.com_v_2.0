@@ -113,7 +113,7 @@
     {
       "beer_name": "Guiness Stout",
       "beer_style": "Stout",
-      "beer_price": "TBD"
+      "beer_price": "5"
     },
     {
       "beer_name": "Miller Lite",
@@ -141,216 +141,152 @@
       "wine_category": "White",
       "wine_name": "Filadonna",
       "wine_varietal": "Pinot Grigio",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "28",
+      "glass_price": "8",
       "wine_description": "TBD"
     },
     {
       "wine_category": "White",
       "wine_name": "Giesen",
       "wine_varietal": "Sauvignon Blanc",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "24",
+      "glass_price": "7",
       "wine_description": "TBD"
     },
     {
       "wine_category": "White",
-      "wine_name": "Joseph Drouhin Macon Village",
+      "wine_name": "Joseph Drouhin Macon Villages",
       "wine_varietal": "Chardonnay",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "32",
+      "glass_price": "9",
       "wine_description": "TBD"
     },
     {
       "wine_category": "White",
       "wine_name": "Buehler",
       "wine_varietal": "Chardonnay",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "36",
+      "glass_price": "10",
       "wine_description": "TBD"
     },
     {
       "wine_category": "White",
       "wine_name": "Richter Zeppelin",
       "wine_varietal": "Riesling",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "32",
+      "glass_price": "9",
       "wine_description": "TBD"
     },
     {
       "wine_category": "White",
       "wine_name": "Pine Ridge",
       "wine_varietal": "Chenin Blanc / Viognier",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "28",
+      "glass_price": "8",
       "wine_description": "TBD"
     },
     {
       "wine_category": "White",
       "wine_name": "Raimat",
-      "wine_varietal": "Albarino",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "wine_varietal": "Albariño",
+      "bottle_price": "28",
+      "glass_price": "8",
       "wine_description": "TBD"
     },
     {
       "wine_category": "Red",
       "wine_name": "Cloudline",
       "wine_varietal": "Pinot Noir",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "44",
+      "glass_price": "12",
       "wine_description": "TBD"
     },
     {
       "wine_category": "Red",
       "wine_name": "Schug",
       "wine_varietal": "Pinot Noir",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
-      "wine_description": "TBD"
-    },
-    {
-      "wine_category": "Red",
-      "wine_name": "Moniker",
-      "wine_varietal": "Cabernet Sauvignon",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
-      "wine_description": "TBD"
-    },
-    {
-      "wine_category": "Red",
-      "wine_name": "Quilt",
-      "wine_varietal": "Cabernet Sauvignon",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
-      "wine_description": "TBD"
-    },
-    {
-      "wine_category": "Red",
-      "wine_name": "Troublemaker",
-      "wine_varietal": "Blend",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "36",
+      "glass_price": "10",
       "wine_description": "TBD"
     },
     {
       "wine_category": "Red",
       "wine_name": "Fantini",
       "wine_varietal": "Sangiovese",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "24",
+      "glass_price": "7",
+      "wine_description": "TBD"
+    },
+    {
+      "wine_category": "Red",
+      "wine_name": "Cune",
+      "wine_varietal": "Rioja",
+      "bottle_price": "40",
+      "glass_price": "11",
       "wine_description": "TBD"
     },
     {
       "wine_category": "Red",
       "wine_name": "Enrique Foster",
       "wine_varietal": "Malbec",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "28",
+      "glass_price": "8",
       "wine_description": "TBD"
     },
     {
       "wine_category": "Red",
-      "wine_name": "Cune Rioja Reserva",
-      "wine_varietal": "Tempranillo",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "wine_name": "Moniker",
+      "wine_varietal": "Cabernet Sauvignon",
+      "bottle_price": "44",
+      "glass_price": "12",
+      "wine_description": "TBD"
+    },
+    {
+      "wine_category": "Red",
+      "wine_name": "Quilt",
+      "wine_varietal": "Cabernet Sauvignon",
+      "bottle_price": "60",
+      "glass_price": "16",
       "wine_description": "TBD"
     },
     {
       "wine_category": "Red",
       "wine_name": "Domaine de la Solitude CDR Rouge",
-      "wine_varietal": "Syrah, Grenache, Mourvedre",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "wine_varietal": "Cotes du Rhone",
+      "bottle_price": "36",
+      "glass_price": "10",
       "wine_description": "TBD"
     },
     {
-      "wine_category": "Rosé",
-      "wine_name": "Elouan",
-      "wine_varietal": "Rosé of Pinot Noit",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "wine_category": "Red",
+      "wine_name": "Troublemaker",
+      "wine_varietal": "Blend",
+      "bottle_price": "36",
+      "glass_price": "10",
       "wine_description": "TBD"
     },
     {
       "wine_category": "Bubbles",
       "wine_name": "Scarpetta Timido Spumante Brute Rose",
       "wine_varietal": "Glera & Pinot Nero",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "36",
+      "glass_price": "10",
       "wine_description": "TBD"
     },
     {
       "wine_category": "Bubbles",
       "wine_name": "Acinum",
       "wine_varietal": "Prosecco",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
-      "wine_description": "TBD"
-    },
-    {
-      "wine_category": "White",
-      "wine_name": "Mer Soliel Santa Lucia Highlands Reserve 2017",
-      "wine_varietal": "Chardonnay",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
-      "wine_description": "TBD"
-    },
-    {
-      "wine_category": "Bubbles",
-      "wine_name": "Domaine de la Solitude Chateauneuf du Pape Blanc 2018",
-      "wine_varietal": "Roussanne, White Grenache, Clairette, Bourbelenc",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "32",
+      "glass_price": "9",
       "wine_description": "TBD"
     },
     {
       "wine_category": "Rosé",
-      "wine_name": "Domaine Ott \"By Ott\" Rosé 2019",
-      "wine_varietal": "Grenache, Cinsault, Syrah",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
-      "wine_description": "TBD"
-    },
-    {
-      "wine_category": "Red",
-      "wine_name": "Burgess Estate",
-      "wine_varietal": "Cabernet Sauvignon",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
-      "wine_description": "TBD"
-    },
-    {
-      "wine_category": "Red",
-      "wine_name": "Belle Glos Las ALturas 2018",
+      "wine_name": "Stoller",
       "wine_varietal": "Pinot Noir",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
-      "wine_description": "TBD"
-    },
-    {
-      "wine_category": "Red",
-      "wine_name": "Giovannis Rosso 2015",
-      "wine_varietal": "Barolo",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
-      "wine_description": "TBD"
-    },
-    {
-      "wine_category": "Red",
-      "wine_name": "Tedeschi Marne 2016",
-      "wine_varietal": "Amarone",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
-      "wine_description": "TBD"
-    },
-    {
-      "wine_category": "Bubbles",
-      "wine_name": "Roederer Brut Premier",
-      "wine_varietal": "Champagne",
-      "bottle_price": "TBD",
-      "glass_price": "TBD",
+      "bottle_price": "36",
+      "glass_price": "10",
       "wine_description": "TBD"
     }
   ]
