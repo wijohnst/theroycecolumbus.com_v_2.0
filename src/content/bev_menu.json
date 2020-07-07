@@ -51,39 +51,44 @@
   ],
   "beer_list": [
     {
-      "beer_name": "Rockmill Saison Noir",
-      "beer_style": "Saison",
-      "beer_price": "TBD"
+      "beer_name": "BrewDog Elvis Juice",
+      "beer_style": "IPA",
+      "beer_price": "6"
+    },
+    {
+      "beer_name": "BrewDog Hazy Jane",
+      "beer_style": "New England IPA",
+      "beer_price": "5"
+    },
+    {
+      "beer_name": "Blue Moon BelgianAle",
+      "beer_style": "Wheat",
+      "beer_price": "5"
+    },
+    {
+      "beer_name": "Scrimshaw Pilsner",
+      "beer_style": "Pilsner",
+      "beer_price": "5"
+    },
+    {
+      "beer_name": "Rodenbach Belgian",
+      "beer_style": "Sour Ale",
+      "beer_price": "5"
+    },
+    {
+      "beer_name": "Palm",
+      "beer_style": "Amber Ale",
+      "beer_price": "5"
     },
     {
       "beer_name": "Seventh Son Assistant Manager",
-      "beer_style": "American Pale Ale",
-      "beer_price": "TBD"
+      "beer_style": "Golden Ale",
+      "beer_price": "4"
     },
     {
       "beer_name": "Columbus Brewing Company IPA",
       "beer_style": "IPA",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "BrewDog Elvis Juice",
-      "beer_style": "IPA",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "Jackie O's Mystic Mam",
-      "beer_style": "IPA",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "BrewDog Clockwork Tangerine",
-      "beer_style": "Session IPA",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "Two Roads Lil' Heaven",
-      "beer_style": "Session IPA",
-      "beer_price": "TBD"
+      "beer_price": "6"
     },
     {
       "beer_name": "Seventh Son Humulus Nimbus",
@@ -91,44 +96,19 @@
       "beer_price": "TBD"
     },
     {
-      "beer_name": "Great Lakes Elliot Ness",
-      "beer_style": "Amber Ale",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "New Belgium Fat Tire",
-      "beer_style": "Amber Ale",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "Great Lakes Christmas Ale",
-      "beer_style": "Brown Ale",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "Scrimshaw Pilsner",
-      "beer_style": "Pilsner",
-      "beer_price": "TBD"
+      "beer_name": "FatHead's Bumbleberry",
+      "beer_style": "Ale",
+      "beer_price": "5"
     },
     {
       "beer_name": "Sweet Water Mango Kush",
       "beer_style": "Pilsner",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "Blue Moon Belgian White",
-      "beer_style": "Wheat",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "Angry Orchard Cider",
-      "beer_style": "Cider",
-      "beer_price": "TBD"
+      "beer_price": "4"
     },
     {
       "beer_name": "Seventh Son Kitty Paw",
-      "beer_style": "Seltzer",
-      "beer_price": "TBD"
+      "beer_style": "Hard Seltzer",
+      "beer_price": "4"
     },
     {
       "beer_name": "Guiness Stout",
@@ -136,27 +116,22 @@
       "beer_price": "TBD"
     },
     {
-      "beer_name": "BrewDog Jet Black Heart",
-      "beer_style": "Stout",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "BrewDog Hazy Jane",
-      "beer_style": "New England IPA",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "Two Roads Prickly Pear",
-      "beer_style": "Sour",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "Market Garden Shandy",
-      "beer_style": "Shandy ",
-      "beer_price": "TBD"
-    },
-    {
       "beer_name": "Miller Lite",
+      "beer_style": "Pilsner",
+      "beer_price": "4"
+    },
+    {
+      "beer_name": "Karmeliet",
+      "beer_style": "Belgian Triple",
+      "beer_price": "6"
+    },
+    {
+      "beer_name": "Pauwl Kwak",
+      "beer_style": "Belgian ALe",
+      "beer_price": "6"
+    },
+    {
+      "beer_name": "Veltin's ",
       "beer_style": "Pilsner",
       "beer_price": "4"
     }
