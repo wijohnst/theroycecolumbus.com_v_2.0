@@ -4,49 +4,49 @@
       "cocktail_name": "Sidecar",
       "cocktail_ingredients": "Lemon juice, simple syrup, Belle Brillet Pear Brandy, Hennessey, Angostura Bitters, Orange Bitters",
       "cocktail_description": "Our take on a true classic",
-      "cocktail_price": "TBD"
+      "cocktail_price": "12"
     },
     {
       "cocktail_name": "Moscow Mule",
       "cocktail_ingredients": "Lime juice, simple syrup, House-made ginger syrup, Watershed Vodka, Dehydrated Lime Garnish",
       "cocktail_description": "No need to mule over the decision to enjoy this refreshing spin on one of our favorite cocktails",
-      "cocktail_price": "TBD"
+      "cocktail_price": "9"
     },
     {
       "cocktail_name": "The Charleston ",
       "cocktail_ingredients": "Lime juice, simple syrup, Angostura Bitters, Williamatte Pinot Noir, Ron Zacapa 23 Rum, Fresh Cinnamon",
       "cocktail_description": "A wine infused cocktail that is as stately as the city for which its named ",
-      "cocktail_price": "TBD"
+      "cocktail_price": "11"
     },
     {
       "cocktail_name": "Black Walnut Old Fashioned",
       "cocktail_ingredients": "Watershed Nocino, Vanilla infused Demerara cane sugar, Angostura bitters, Four Roses Small Batch Bourbon, Orange",
       "cocktail_description": "A cocktail to make your grandfather proud",
-      "cocktail_price": "TBD"
+      "cocktail_price": "10"
     },
     {
       "cocktail_name": "Ribbon in the Sky",
       "cocktail_ingredients": "White grapes, fresh Lemon juice, Lavender simple syrup, Peach Bitters, Albariño White Wine, Watershed Gin, Cucumber and Raspberries",
       "cocktail_description": "The antidote for hot summer weather",
-      "cocktail_price": "TBD"
+      "cocktail_price": "10"
     },
     {
       "cocktail_name": "Better with Thyme",
       "cocktail_ingredients": "Lime juice, simple syrup, St-Germain Elderflower Liqueur, Grapefruit, Tito's Vodka, Fresh Thyme",
       "cocktail_description": "TBD",
-      "cocktail_price": "TBD"
+      "cocktail_price": "10"
     },
     {
       "cocktail_name": "Aviation",
       "cocktail_ingredients": "Cremé de Violette, Lemon juice, Simple Syrup, Luxardo Maraschino Liqueur, Watershed Bourbon Barrel Aged Gin, Angostura Bitters",
       "cocktail_description": "TBD",
-      "cocktail_price": "TBD"
+      "cocktail_price": "12"
     },
     {
       "cocktail_name": "Just Finishing Up",
       "cocktail_ingredients": "Lemon juice, Honey Water, Ginger Syrup, Maker's Mark Bourbon, Smoked Angostura Bitters, Cinnamon",
       "cocktail_description": "TBD",
-      "cocktail_price": "TBD"
+      "cocktail_price": "11"
     }
   ],
   "beer_list": [
