@@ -25,18 +25,6 @@ const ItemName = styled.p`
     font-weight: 800;
   }
 `
-const DescriptionWrapper = styled.div`
-  display: flex;
-  padding-left: 2%;
-  font-size: .5rem;
-  font-family: ${getFont('text')};
-  margin-bottom: 1.5%;
-  
-  @media (max-width: ${getScreen('mobile')}){
-    position: relative;
-    top: -12px;
-  }
-`
 
 const IngredientPriceWrapper = styled.div`
   display: flex;
@@ -52,6 +40,8 @@ const IngredientsWrapper = styled.div`
   padding-left: 2%;
   font-family: ${getFont('text')};
   margin-bottom: 1.5%;
+  max-width: 50ch;
+  line-height: 1.5;
 
   @media (max-width: ${getScreen('mobile')}){
     text-align: center;
@@ -70,12 +60,11 @@ const PriceWrapper = styled.div`
 
 export default function Cocktail(props) {
   
-  const {itemName, ingredients, description, price} = props;
+  const {itemName, ingredients,price} = props;
 
   return (
     <CocktailWrapper>
       <ItemName>{itemName}</ItemName>
-      <DescriptionWrapper>{description}</DescriptionWrapper>
       <IngredientPriceWrapper>
         <IngredientsWrapper>{ingredients}</IngredientsWrapper>
         <PriceWrapper>${price}</PriceWrapper>
