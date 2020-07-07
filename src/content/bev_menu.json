@@ -51,16 +51,6 @@
   ],
   "beer_list": [
     {
-      "beer_name": "Bud Light",
-      "beer_style": "Light Lager",
-      "beer_price": "TBD"
-    },
-    {
-      "beer_name": "Great Lakes Siren Shores",
-      "beer_style": "Saison",
-      "beer_price": "TBD"
-    },
-    {
       "beer_name": "Rockmill Saison Noir",
       "beer_style": "Saison",
       "beer_price": "TBD"
@@ -164,6 +154,11 @@
       "beer_name": "Market Garden Shandy",
       "beer_style": "Shandy ",
       "beer_price": "TBD"
+    },
+    {
+      "beer_name": "Miller Lite",
+      "beer_style": "Pilsner",
+      "beer_price": "4"
     }
   ],
   "wine_list": [
