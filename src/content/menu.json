@@ -231,21 +231,21 @@
     {
       "main_allergies": [
         "Animal Product",
-        "Dairy"
-      ],
-      "main_name": "Roasted Chicken",
-      "main_description": "mashed potatoes, chicken gravy, skillet beans",
-      "main_price": "18"
-    },
-    {
-      "main_allergies": [
-        "Animal Product",
         "Red Meat",
         "Dairy"
       ],
       "main_name": "N.Y. Strip",
       "main_description": "Crispy steak fries, bbq spice carrots, chimichurri",
       "main_price": "TBD"
+    },
+    {
+      "main_allergies": [
+        "Animal Product",
+        "Dairy"
+      ],
+      "main_name": "Roasted Chicken",
+      "main_description": "mashed potatoes, chicken gravy, skillet beans",
+      "main_price": "18"
     },
     {
       "main_allergies": [
