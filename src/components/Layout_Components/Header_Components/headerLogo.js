@@ -16,6 +16,10 @@ const HeaderLogoWrapper = styled.div`
   font-family: ${getFont('logo')};
   font-size: 2rem;
 
+  @media (max-width: ${getScreen('tablet')}){
+    width: 50%;
+  }
+
   @media (max-width: ${getScreen('mobile')}){
     width: 100%;
     font-size: 1.5rem;

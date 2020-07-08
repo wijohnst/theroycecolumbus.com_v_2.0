@@ -26,7 +26,7 @@ const BadgeWrapper = styled.div`
     transition: all .5s;
   }
 
-  @media (max-width: ${getScreen('mobile')}){
+  @media (max-width: ${getScreen('tablet')}){
     background-color: ${getColor('secondary')};
   }
 `

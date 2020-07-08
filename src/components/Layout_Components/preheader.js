@@ -19,9 +19,14 @@ const PreHeaderWrapper = styled.div`
   align-items: center;
   max-height: 5vh; 
 
+  @media (max-width: ${getScreen('tablet')}){
+    font-size: .55rem;
+    min-height: 6vh;
+  }
+
   @media (max-width:${getScreen('mobile')}){
-    min-height: 5vh;
     font-size: .3rem;
+    min-height: 5vh;
   }
 `
 
@@ -31,13 +36,9 @@ const HamburgerWrapper = styled.div`
     cursor: pointer;
   }
 
-  @media (max-width:${getScreen('mobile')}){
-
-    display: inline;
+  @media (max-width:${getScreen('tablet')}){
     display: flex;
-    
   }
-
 `
 
 const AddressWrapper = styled.p`
