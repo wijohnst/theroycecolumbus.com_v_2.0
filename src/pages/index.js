@@ -24,6 +24,8 @@ const BelowHeroGrid = styled.div`
   @media (max-width: ${getScreen('tablet')}){
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
 `
@@ -88,6 +90,11 @@ const RibFrameWrapper = styled.div`
   width: 100%;
   justify-self: center;
 
+  @media (max-width: ${getScreen('tablet')}){
+    width: 50%;
+    margin: 2%;
+  }
+  
   @media (max-width: ${getScreen('mobile')}){
     display: none;
   }
@@ -95,7 +102,7 @@ const RibFrameWrapper = styled.div`
 
 const HoursLocationWrapper = styled.div`
   position: relative;
-  top: 15%;
+  top: 12.5%;
   left: 1%;
   width: 97%;
   max-height: 75%;
@@ -106,6 +113,7 @@ const HoursLocationWrapper = styled.div`
 
   @media (max-width: ${getScreen('tablet')}){
     left: 0%;
+    margin-bottom: 10%;
   }
 
   @media (max-width: ${getScreen('mobile')}){
