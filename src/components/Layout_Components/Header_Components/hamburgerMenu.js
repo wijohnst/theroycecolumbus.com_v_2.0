@@ -18,7 +18,6 @@ const HamburgerMenuWrapper = styled.div`
   transition: all .5s ease-in-out;
   border-radius: 5px;
   box-shadow: ${props => props.isOpen ? "5px 7px 12px rgba(0,0,0,.25)" : "none"};
-  /* background-color :  lightpink; */
   margin-left: ${props => props.isOpen ? "0%" : "50%"};
   margin-bottom: ${props => props.isOpen ? "0%" : "20%"};
 `
@@ -26,7 +25,6 @@ const IconWrapper = styled.div`
   display: ${props => props.isOpen ? "none" : "block"};
 `
 const LinksGroup = styled.div`
-
   display: ${props => props.isOpen ? 'flex' : 'none'};
   z-index: 1000;
   width: 100%;

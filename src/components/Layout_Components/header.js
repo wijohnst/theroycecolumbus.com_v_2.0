@@ -22,6 +22,10 @@ const HeaderWrapper = styled(motion.div)`
   z-index: 999;
   transition: all .5s ease-in-out;
   
+  @media (max-width: ${getScreen('tablet')}){
+    height: ${props => props.past ? '8vh' : '10vh'};
+    top: ${props => props.past ? '0%' : '5%'};
+  }
 
   @media (max-width: ${getScreen('mobile')}){
     flex-direction: column;

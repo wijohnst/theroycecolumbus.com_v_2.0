@@ -21,7 +21,7 @@ const BelowHeroGrid = styled.div`
 
   font-family: ${getFont('heading')};
 
-  @media (max-width: ${getScreen('mobile')}){
+  @media (max-width: ${getScreen('tablet')}){
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -32,9 +32,6 @@ const AboutWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-
-  @media (max-width: ${getScreen('mobile')}){
-  }
 `
 
 const AboutInfo = styled.div`
@@ -45,6 +42,10 @@ const AboutInfo = styled.div`
   margin: 5px;
   border: solid thick ${getColor('white')};
   border-radius: 5px;
+
+  @media (max-width: ${getScreen('tablet')}){
+    width: 100%;
+  }
 
   @media (max-width: ${getScreen('mobile')}){
     margin: none;
@@ -103,13 +104,15 @@ const HoursLocationWrapper = styled.div`
   border-radius: 5px;
   display: flex;
 
+  @media (max-width: ${getScreen('tablet')}){
+    left: 0%;
+  }
+
   @media (max-width: ${getScreen('mobile')}){
     flex-direction: column;
     height: 100%;
     max-width: 92%;
   }
-  
-
 `
 const HoursWrapper=  styled.div`
   width: 50%;
