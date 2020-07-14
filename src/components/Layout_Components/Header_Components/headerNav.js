@@ -32,7 +32,7 @@ export default function HeaderNav() {
         <NavOption linkInfo={{to : "/menu", text : "Menu"}} button={'false'}/>
         <NavOption linkInfo={{to : "/about", text : "About"}} button={'false'}/>
         <NavOption linkInfo={{to : "/blog", text : "Blog"}} button={'false'}/>
-        <NavOption linkInfo={{to : "https://www.opentable.co.th/r/the-royce-columbus", text : "Reservations"}} button={'true'}/>
+        <NavOption linkInfo={{to : "https://www.opentable.com/r/the-royce-reservations-columbus?restref=1077286&lang=en-US&ot_source=Restaurant%20website", text : "Reservations"}} button={'true'}/>
       </NavOptionsGroup>
     </HeaderNavWrapper>
   )
