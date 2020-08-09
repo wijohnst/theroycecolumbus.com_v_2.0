@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `The Royce`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Official Site for The Royce.`,
     author: `@chefwill15`,
   },
   plugins: [
@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#99A995`,
         theme_color: `#99A995`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/royce_icon.png`, // This path is relative to the root of the site.
       },
     },
     {
